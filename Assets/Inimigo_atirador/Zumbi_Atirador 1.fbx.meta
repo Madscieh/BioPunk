@@ -5,7 +5,16 @@ ModelImporter:
   internalIDToNameTable:
   - first:
       74: -1422011007694221501
-    second: Armature|ArmatureAction.001
+    second: idle
+  - first:
+      74: -1055766231766805323
+    second: Andar
+  - first:
+      74: -5343769981576626215
+    second: Ataque
+  - first:
+      74: -6894384079273843431
+    second: morte
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -63,11 +72,127 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Armature|ArmatureAction.001
+      internalID: 0
+      firstFrame: 10
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Andar
+      takeName: Armature|ArmatureAction.001
+      internalID: 0
+      firstFrame: 80
+      lastFrame: 147
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ataque
+      takeName: Armature|ArmatureAction.001
+      internalID: 0
+      firstFrame: 168
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: morte
+      takeName: Armature|ArmatureAction.001
+      internalID: 0
+      firstFrame: 215
+      lastFrame: 261
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.37
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -415,187 +540,187 @@ ModelImporter:
       scale: {x: 55.73881, y: 55.73881, z: 55.73881}
     - name: Quadril
       parentName: Armature
-      position: {x: -0, y: -0.00039410725, z: 0.016521871}
+      position: {x: -0, y: -0.00014581968, z: 0.006113093}
       rotation: {x: 0.6549976, y: -0.000000057048542, z: -0.00000004945094, w: 0.75563097}
       scale: {x: 0.99999994, y: 1.0000001, z: 1}
     - name: Coxa.L
       parentName: Quadril
-      position: {x: 0.0016789694, y: 0.0000044277217, z: -0.0009294915}
+      position: {x: 0.0006212187, y: 0.0000016382568, z: -0.00034391184}
       rotation: {x: 0.7006691, y: 0.0033782846, z: 0.7109834, w: -0.059615415}
       scale: {x: 1.0000044, y: 0.99999976, z: 1.0000203}
     - name: canela.L
       parentName: Coxa.L
-      position: {x: -5.820766e-11, y: 0.007770472, z: 9.9498715e-11}
+      position: {x: -2.1536835e-11, y: 0.002875074, z: 3.681453e-11}
       rotation: {x: 0.00008126303, y: -0.0032268283, z: -0.0021902071, w: 0.99999243}
       scale: {x: 1.0000004, y: 1.0000001, z: 0.99999964}
     - name: Pe.L
       parentName: canela.L
-      position: {x: 1.8626451e-11, y: 0.006462108, z: -2.3064784e-11}
+      position: {x: 6.8917866e-12, y: 0.0023909796, z: -8.5339695e-12}
       rotation: {x: -0.03619065, y: 0.0064438675, z: 0.5914707, w: 0.8054881}
       scale: {x: 0.99999994, y: 0.9999998, z: 0.9999999}
     - name: Dedos_pe.L
       parentName: Pe.L
-      position: {x: -5.5879353e-11, y: 0.002511633, z: 3.259629e-11}
+      position: {x: -2.0675359e-11, y: 0.0009293041, z: 1.2060626e-11}
       rotation: {x: 0.0015826683, y: 0.00017854352, z: 0.002557267, w: 0.99999547}
       scale: {x: 1, y: 1.0000001, z: 1}
     - name: Coxa.R
       parentName: Quadril
-      position: {x: -0.00167897, y: 0.0000044277076, z: -0.0009294909}
+      position: {x: -0.0006212189, y: 0.0000016382519, z: -0.00034391164}
       rotation: {x: 0.71098423, y: -0.059617102, z: 0.7006681, w: 0.0033833703}
       scale: {x: 1.0000038, y: 1.0000013, z: 1.0000179}
     - name: canela.R
       parentName: Coxa.R
-      position: {x: 3.259629e-11, y: 0.0077704736, z: -3.1832315e-11}
+      position: {x: 1.2060626e-11, y: 0.0028750747, z: -1.1777958e-11}
       rotation: {x: -0.00008126513, y: 0.0032269112, z: -0.0021902684, w: 0.99999243}
       scale: {x: 1.0000001, y: 0.99999976, z: 0.9999999}
     - name: Pe.R
       parentName: canela.R
-      position: {x: 4.1909514e-11, y: 0.0064621037, z: -2.9071087e-10}
+      position: {x: 1.5506521e-11, y: 0.0023909782, z: -1.0756303e-10}
       rotation: {x: 0.04491014, y: -0.018323896, z: 0.5908721, w: 0.80530584}
       scale: {x: 0.9999998, y: 0.99999994, z: 0.9999998}
     - name: Dedos_pe.R
       parentName: Pe.R
-      position: {x: -1.5716067e-11, y: 0.0025116336, z: -1.717126e-10}
+      position: {x: -5.814945e-12, y: 0.0009293045, z: -6.353365e-11}
       rotation: {x: -0.0015052753, y: -0.00066973176, z: 0.0026035514, w: 0.9999953}
       scale: {x: 1, y: 0.99999976, z: 0.99999994}
     - name: Espinha.001
       parentName: Quadril
-      position: {x: -2.9371516e-17, y: 0.0023298475, z: 0}
+      position: {x: -1.0867462e-17, y: 0.0008620435, z: 0}
       rotation: {x: 0.043465827, y: 0.0000000023554914, z: -0.000000031325026, w: 0.9990549}
       scale: {x: 1, y: 0.9999999, z: 1}
     - name: Espinha.002
       parentName: Espinha.001
-      position: {x: 4.9960035e-17, y: 0.003031648, z: -5.5879374e-11}
+      position: {x: 1.8485212e-17, y: 0.0011217097, z: -2.0675368e-11}
       rotation: {x: 0.08361125, y: -0.0000000016824347, z: -0.0000000741999, w: 0.99649847}
       scale: {x: 1, y: 0.9999999, z: 1}
     - name: Espinha.003
       parentName: Espinha.002
-      position: {x: 3.8635761e-16, y: 0.002913343, z: 9.313215e-11}
+      position: {x: 1.4295231e-16, y: 0.0010779367, z: 3.445889e-11}
       rotation: {x: 0.03471972, y: -0.000000013937008, z: -0.00000010041412, w: 0.9993971}
       scale: {x: 1, y: 0.99999994, z: 0.99999994}
     - name: Ombro.L
       parentName: Espinha.003
-      position: {x: 0.0011403578, y: 0.0014500623, z: 0.00025861396}
+      position: {x: 0.00042193237, y: 0.0005365232, z: 0.000095687166}
       rotation: {x: 0.032498144, y: -0.12154674, z: -0.696582, w: 0.7063595}
       scale: {x: 0.99999994, y: 1.0000001, z: 1}
     - name: Ante_brasso.L
       parentName: Ombro.L
-      position: {x: 0.0000000046507265, y: 0.0022423149, z: 1.4901161e-10}
+      position: {x: 0.0000000017207683, y: 0.00082965626, z: 5.5134293e-11}
       rotation: {x: -0.13369584, y: 0.000725816, z: -0.021999763, w: 0.9907779}
       scale: {x: 0.9999997, y: 1.0000005, z: 0.9999997}
     - name: Brasso.L
       parentName: Ante_brasso.L
-      position: {x: 0.00000000516884, y: 0.0052671516, z: -7.4505804e-11}
+      position: {x: 0.0000000019124706, y: 0.0019488462, z: -2.7567146e-11}
       rotation: {x: -0.0023694688, y: -0.0024859468, z: -0.00025484373, w: 0.9999941}
       scale: {x: 0.9999998, y: 0.99999994, z: 1.0000002}
     - name: Mao.L
       parentName: Brasso.L
-      position: {x: 4.1909514e-11, y: 0.0044161915, z: -4.1909514e-11}
+      position: {x: 1.5506521e-11, y: 0.0016339903, z: -1.5506521e-11}
       rotation: {x: 0.0060881153, y: 0.023578275, z: 0.02397123, w: 0.99941605}
       scale: {x: 0.9999999, y: 1, z: 0.99999994}
     - name: Anelar.001
       parentName: Mao.L
-      position: {x: -0.000029750945, y: 0.0018698366, z: 0.00030284442}
+      position: {x: -0.000011007848, y: 0.0006918393, z: 0.00011205242}
       rotation: {x: 0.014672096, y: -0.036014754, z: -0.036614973, w: 0.9985725}
       scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
     - name: Anelar.002
       parentName: Anelar.001
-      position: {x: 0.0000000019627622, y: 0.00044121782, z: -7.4505804e-11}
+      position: {x: 7.262219e-10, y: 0.00016325057, z: -2.7567146e-11}
       rotation: {x: -0.00043954657, y: 0.039673332, z: 0.039198536, w: 0.9984434}
       scale: {x: 1, y: 1.0000002, z: 1.0000001}
     - name: Anelar.003
       parentName: Anelar.002
-      position: {x: 0.0000000027846545, y: 0.00048356396, z: 3.5390257e-10}
+      position: {x: 0.000000001030322, y: 0.00017891868, z: 1.3094396e-10}
       rotation: {x: 0.0068080854, y: -0.028690394, z: -0.028306257, w: 0.9991643}
       scale: {x: 0.9999998, y: 1.0000004, z: 1.0000002}
     - name: Indicador.001
       parentName: Mao.L
-      position: {x: -0.000012545657, y: 0.0018348391, z: -0.0004899593}
+      position: {x: -0.0000046418927, y: 0.0006788903, z: -0.00018128492}
       rotation: {x: 0.00746773, y: -0.04042267, z: -0.019719899, w: 0.99896014}
       scale: {x: 1, y: 0.9999999, z: 0.99999994}
     - name: Indicador.002
       parentName: Indicador.001
-      position: {x: -1.6065314e-10, y: 0.00045981273, z: 4.6566126e-11}
+      position: {x: -5.944165e-11, y: 0.0001701307, z: 1.7229468e-11}
       rotation: {x: 0.0000725694, y: 0.044430546, z: 0.0019706932, w: 0.99901056}
       scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
     - name: Indicador.003
       parentName: Indicador.002
-      position: {x: -0.000000001102453, y: 0.00045974544, z: -9.3132255e-12}
+      position: {x: -4.079076e-10, y: 0.00017010584, z: -3.4458933e-12}
       rotation: {x: -0.00021673905, y: -0.030688114, z: -0.009418397, w: 0.99948466}
       scale: {x: 0.9999999, y: 1.0000005, z: 1}
     - name: Meio.001
       parentName: Mao.L
-      position: {x: -0.00003478516, y: 0.0019032104, z: -0.00008631978}
+      position: {x: -0.000012870512, y: 0.00070418784, z: -0.00003193831}
       rotation: {x: 0.0069524264, y: -0.035739813, z: -0.03633545, w: 0.9986762}
       scale: {x: 1, y: 0.99999994, z: 1}
     - name: Meio.002
       parentName: Meio.001
-      position: {x: -3.1315722e-10, y: 0.00051879574, z: -4.6566126e-11}
+      position: {x: -1.15868155e-10, y: 0.00019195444, z: -1.7229468e-11}
       rotation: {x: 0.0072808582, y: 0.039368927, z: 0.038945716, w: 0.99843895}
       scale: {x: 1.0000002, y: 1.0000004, z: 0.99999994}
     - name: Meio.003.R
       parentName: Meio.002
-      position: {x: 8.428469e-10, y: 0.0005686608, z: -1.3038516e-10}
+      position: {x: 3.1185335e-10, y: 0.00021040448, z: -4.8242504e-11}
       rotation: {x: 0.0068080407, y: -0.028685149, z: -0.02830113, w: 0.9991646}
       scale: {x: 0.99999976, y: 1.0000002, z: 1}
     - name: Pequeno.001
       parentName: Mao.L
-      position: {x: -0.000024909674, y: 0.001753556, z: 0.0006847455}
+      position: {x: -0.00000921658, y: 0.00064881577, z: 0.00025335583}
       rotation: {x: 0.014672156, y: -0.036015872, z: -0.0366161, w: 0.9985724}
       scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
     - name: Pequeno.002
       parentName: Pequeno.001
-      position: {x: 0.000000004176982, y: 0.00036654065, z: -3.7252902e-11}
+      position: {x: 0.000000001545483, y: 0.00013562004, z: -1.3783573e-11}
       rotation: {x: -0.0004397261, y: 0.039672263, z: 0.03919743, w: 0.99844354}
       scale: {x: 1, y: 0.9999999, z: 0.9999999}
     - name: Pequeno.003
       parentName: Pequeno.002
-      position: {x: 0.000000002058223, y: 0.00040171924, z: 1.4901161e-10}
+      position: {x: 7.6154266e-10, y: 0.00014863611, z: 5.5134293e-11}
       rotation: {x: 0.0068086796, y: -0.028686143, z: -0.028302072, w: 0.9991645}
       scale: {x: 1, y: 0.99999994, z: 0.99999994}
     - name: Polegar.001
       parentName: Mao.L
-      position: {x: 0.00018917014, y: 0.0006426489, z: -0.00039775146}
+      position: {x: 0.00006999296, y: 0.00023778007, z: -0.00014716802}
       rotation: {x: -0.35559726, y: -0.08782067, z: -0.063313335, w: 0.92834777}
       scale: {x: 0.99999994, y: 1, z: 1}
     - name: Polegar.002
       parentName: Polegar.001
-      position: {x: 0.0000000011851079, y: 0.0006350814, z: -5.401671e-10}
+      position: {x: 4.3848997e-10, y: 0.00023498008, z: -1.9986181e-10}
       rotation: {x: 0.029702839, y: 0.072153874, z: 0.017925663, w: 0.99679}
       scale: {x: 0.9999998, y: 1, z: 1}
     - name: Polegar.003
       parentName: Polegar.002
-      position: {x: -0.0000000014412217, y: 0.00047671265, z: 6.705522e-10}
+      position: {x: -5.332521e-10, y: 0.00017638369, z: 2.4810434e-10}
       rotation: {x: 0.11889479, y: 0.058269303, z: 0.023750113, w: 0.99091107}
       scale: {x: 1, y: 1.0000004, z: 0.99999994}
     - name: Ombro.R
       parentName: Espinha.003
-      position: {x: -0.0011403578, y: 0.0014500613, z: 0.00025861443}
+      position: {x: -0.00042193237, y: 0.0005365227, z: 0.000095687334}
       rotation: {x: -0.69658196, y: 0.70635957, z: 0.032498427, w: -0.12154665}
       scale: {x: 1, y: 0.99999994, z: 1}
     - name: Ante_brasso.R
       parentName: Ombro.R
-      position: {x: -0.00000000513005, y: 0.0022423144, z: 0}
+      position: {x: -0.0000000018981186, y: 0.00082965626, z: 0}
       rotation: {x: 0.12241752, y: -0.0012321572, z: -0.018815104, w: 0.99229956}
       scale: {x: 0.9999996, y: 1.0000001, z: 1}
     - name: Brasso.R
       parentName: Ante_brasso.R
-      position: {x: 0.0000000010244549, y: 0.005267152, z: -9.313225e-11}
+      position: {x: 3.7904832e-10, y: 0.0019488462, z: -3.4458936e-11}
       rotation: {x: -0.0033911308, y: 0.9997034, z: 0.023853645, w: -0.0035787788}
       scale: {x: 0.9999998, y: 0.9999992, z: 1.0000002}
     - name: Arma
       parentName: Brasso.R
-      position: {x: -0.0000000027543865, y: 0.0028823528, z: -1.4901161e-10}
+      position: {x: -0.000000001019123, y: 0.0010664705, z: -5.5134293e-11}
       rotation: {x: 0.018328933, y: 0.9995168, z: 0.019161157, w: 0.016220232}
       scale: {x: 0.99999976, y: 0.9999999, z: 0.99999976}
     - name: pescosso
       parentName: Espinha.003
-      position: {x: 1.4299673e-15, y: 0.0020777138, z: -2.6077063e-10}
+      position: {x: 5.2908785e-16, y: 0.0007687539, z: -9.6485125e-11}
       rotation: {x: -0.110109195, y: -1.5388896e-14, z: 0.000000019252099, w: 0.9939195}
       scale: {x: 1, y: 1, z: 0.99999994}
     - name: Cabessa
       parentName: pescosso
-      position: {x: -8.482104e-16, y: 0.0030373451, z: -3.4139359e-16}
+      position: {x: -3.1383778e-16, y: 0.0011238178, z: -1.2631561e-16}
       rotation: {x: -0.0027403375, y: 0.73016423, z: -0.6832599, w: -0.0029281748}
       scale: {x: 1, y: 0.99999964, z: 1}
     - name: Atirador
@@ -610,17 +735,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 0.37
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: f097e7edcf69e1444a5089823e9577bf,
-    type: 3}
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 2
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
