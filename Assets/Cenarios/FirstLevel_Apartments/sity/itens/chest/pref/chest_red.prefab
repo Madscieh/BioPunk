@@ -104,7 +104,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 427560}
-  - component: {fileID: 13533286}
   m_Layer: 0
   m_Name: pivot
   m_TagString: Untagged
@@ -127,19 +126,6 @@ Transform:
   m_Father: {fileID: 448456}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -0.39409998, y: -720, z: -720}
---- !u!135 &13533286
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 133464}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 1
-  m_Center: {x: 0, y: 0, z: 0.5}
 --- !u!1 &147324
 GameObject:
   m_ObjectHideFlags: 0

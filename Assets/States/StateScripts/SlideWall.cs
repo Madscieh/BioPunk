@@ -20,8 +20,6 @@ namespace BioPunk
                 if (control.Jump) animator.SetBool(TransitionParameter.isJumping.ToString(), true);
             }
             else control.GetComponent<Rigidbody>().velocity = new Vector3(control.GetComponent<Rigidbody>().velocity.x, control.GetComponent<Rigidbody>().velocity.y, 0);
-
-            Debug.Log(control.GetComponent<Rigidbody>().velocity);
         }
         public override void OnExit(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
