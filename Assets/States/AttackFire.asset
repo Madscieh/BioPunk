@@ -15,3 +15,5 @@ MonoBehaviour:
   fireProjectile: {fileID: 1461909691975414279, guid: 2689d4454e8c3ed4aae1dadddb98af67,
     type: 3}
   fireBallSpeed: 10
+  audio: {fileID: 0}
+  soundFX: {fileID: 8300000, guid: 117706e476bc32d47b172e4169be28b0, type: 3}

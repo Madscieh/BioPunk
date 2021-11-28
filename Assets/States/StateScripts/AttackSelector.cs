@@ -5,13 +5,13 @@ namespace BioPunk
     [CreateAssetMenu(fileName = "New State", menuName = "BioPunk/AbilityData/AttackSelector")]
     public class AttackSelector : StateData
     {
-        public GameObject fireWeapon;
-        public GameObject basicWeapon;
-        public GameObject empWeapon;
+        //public GameObject fireWeapon;
+        //public GameObject basicWeapon;
+        //public GameObject empWeapon;
 
         public override void OnEnter(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
-            animator.SetBool(TransitionParameter.meleeWeapon.ToString(), true);
+            
         }
         public override void UpdateAbility(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
@@ -23,9 +23,9 @@ namespace BioPunk
                 animator.SetBool(TransitionParameter.basicWeapon.ToString(), false);
                 animator.SetBool(TransitionParameter.empWeapon.ToString(), false);
 
-                fireWeapon.SetActive(false);
-                basicWeapon.SetActive(false);
-                empWeapon.SetActive(false);
+                control.fireWeapon.SetActive(false);
+                control.basicWeapon.SetActive(false);
+                control.empWeapon.SetActive(false);
             }
             if (control.weaponFire && control.hasWeaponFire)
             {
@@ -34,9 +34,9 @@ namespace BioPunk
                 animator.SetBool(TransitionParameter.basicWeapon.ToString(), false);
                 animator.SetBool(TransitionParameter.empWeapon.ToString(), false);
 
-                fireWeapon.SetActive(true);
-                basicWeapon.SetActive(false);
-                empWeapon.SetActive(false);
+                control.fireWeapon.SetActive(true);
+                control.basicWeapon.SetActive(false);
+                control.empWeapon.SetActive(false);
             }
             if (control.weaponBasic && control.hasWeaponBasic)
             {
@@ -45,9 +45,9 @@ namespace BioPunk
                 animator.SetBool(TransitionParameter.basicWeapon.ToString(), true);
                 animator.SetBool(TransitionParameter.empWeapon.ToString(), false);
 
-                fireWeapon.SetActive(false);
-                basicWeapon.SetActive(true);
-                empWeapon.SetActive(false);
+                control.fireWeapon.SetActive(false);
+                control.basicWeapon.SetActive(true);
+                control.empWeapon.SetActive(false);
             }
             if (control.weaponEMP && control.hasWeaponEMP)
             {
@@ -56,9 +56,9 @@ namespace BioPunk
                 animator.SetBool(TransitionParameter.basicWeapon.ToString(), false);
                 animator.SetBool(TransitionParameter.empWeapon.ToString(), true);
 
-                fireWeapon.SetActive(false);
-                basicWeapon.SetActive(false);
-                empWeapon.SetActive(true);
+                control.fireWeapon.SetActive(false);
+                control.basicWeapon.SetActive(false);
+                control.empWeapon.SetActive(true);
             }
         }
         public override void OnExit(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)

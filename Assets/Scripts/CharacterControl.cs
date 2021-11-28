@@ -23,6 +23,10 @@ namespace BioPunk
         public bool Jump;
         public bool Attack;
 
+        public GameObject fireWeapon;
+        public GameObject basicWeapon;
+        public GameObject empWeapon;
+
         public bool weaponMelee;
         public bool weaponFire;
         public bool weaponBasic;
@@ -32,6 +36,7 @@ namespace BioPunk
         public bool hasWeaponBasic;
         public bool hasWeaponEMP;
 
+        public AudioSource audio;
 
         public Transform firePosition;
 
