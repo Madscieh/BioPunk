@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 07fa80952e3e78349b5f4467b03f1c99
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - fireWeapon: {fileID: 7880348788545128350, guid: 7fd758310e7142e40b894a7d797c243d,
+      type: 3}
+  - basicWeapon: {fileID: 7684867978331214921, guid: 2f4883c8063a39949bca50f1ce66d620,
+      type: 3}
+  - empWeapon: {fileID: 5375600920989686272, guid: 9809949a7494adf4b8fecc2fff49a41e,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

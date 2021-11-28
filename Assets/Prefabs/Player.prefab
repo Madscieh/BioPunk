@@ -146,8 +146,7 @@ MonoBehaviour:
   MoveLeft: 0
   Jump: 0
   Fire: 0
-  Crouch: 0
-  firePosition: {fileID: 0}
+  firePosition: {fileID: 7304597432466296349}
 --- !u!1 &3885088585798254105
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,7 +263,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Robo
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1352988113732919087, guid: ad5a78517cb87564287dcde159f4a9f6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ad5a78517cb87564287dcde159f4a9f6, type: 3}
 --- !u!1 &8829202071805527901 stripped
 GameObject:

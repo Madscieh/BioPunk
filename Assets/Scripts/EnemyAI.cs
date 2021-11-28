@@ -22,11 +22,11 @@ namespace BioPunk
                 {
                     _characterControl.MoveRight = false;
                     _characterControl.MoveLeft = false;
-                    _characterControl.Fire = true;
+                    _characterControl.Attack = true;
                 }
                 else
                 {
-                    _characterControl.Fire = false;
+                    _characterControl.Attack = false;
                     if (playerTransform.position.x < transform.position.x)
                     {
                         _characterControl.MoveRight = false;

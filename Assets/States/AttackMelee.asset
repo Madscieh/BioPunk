@@ -9,8 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63a2913f8bffdd74f8ab9d5792896a1e, type: 3}
-  m_Name: DetectorGround
+  m_Script: {fileID: 11500000, guid: e85a98ed23adc0d4a9688f73ef5d30d4, type: 3}
+  m_Name: AttackMelee
   m_EditorClassIdentifier: 
-  checkTime: 0.1
-  groundDistance: 0.2

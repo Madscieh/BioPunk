@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63a2913f8bffdd74f8ab9d5792896a1e, type: 3}
-  m_Name: DetectorGround
+  m_Script: {fileID: 11500000, guid: 78d4881ae342842419567e5860241a9a, type: 3}
+  m_Name: AttackFire
   m_EditorClassIdentifier: 
-  checkTime: 0.1
-  groundDistance: 0.2
+  fireProjectile: {fileID: 1461909691975414279, guid: 2689d4454e8c3ed4aae1dadddb98af67,
+    type: 3}
+  fireBallSpeed: 10

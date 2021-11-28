@@ -1,14 +1,14 @@
 ﻿using BioPunk;
 using UnityEngine;
 
-public class CollectWeaponFire : MonoBehaviour
+public class CollectWeaponBasic : MonoBehaviour
 {
-    public GameObject fireWeapon;
+    public GameObject basicWeapon;
     public CharacterControl control;
 
     public void OnTriggerEnter (Collider other)
     {
-        control.hasWeaponFire = true;
+        control.hasWeaponBasic = true;
         Destroy(gameObject);
     }
 }
