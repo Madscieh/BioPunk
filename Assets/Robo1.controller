@@ -44,6 +44,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ListAbilityData:
   - {fileID: 11400000, guid: c7e6460fc84bb824caa72ebd48f4bf40, type: 2}
+  - {fileID: 11400000, guid: 578a8535d6f3a084f8630712276e3bdc, type: 2}
 --- !u!1101 &-8400137925834663323
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -242,6 +243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ListAbilityData:
   - {fileID: 11400000, guid: c7e6460fc84bb824caa72ebd48f4bf40, type: 2}
+  - {fileID: 11400000, guid: 578a8535d6f3a084f8630712276e3bdc, type: 2}
 --- !u!1102 &-3996550094379199671
 AnimatorState:
   serializedVersion: 5
@@ -581,6 +583,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 32ccc968cb272d44b901aae3b5aa7b32, type: 2}
   - {fileID: 11400000, guid: 2fbc292176851694cb7f03aa8b5af189, type: 2}
   - {fileID: 11400000, guid: c7e6460fc84bb824caa72ebd48f4bf40, type: 2}
+  - {fileID: 11400000, guid: 578a8535d6f3a084f8630712276e3bdc, type: 2}
 --- !u!114 &3218126155812237027
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -595,6 +598,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ListAbilityData:
   - {fileID: 11400000, guid: 345fd97f27002544ea7453e3f2ae9d8b, type: 2}
+  - {fileID: 11400000, guid: 2fbc292176851694cb7f03aa8b5af189, type: 2}
+  - {fileID: 11400000, guid: 578a8535d6f3a084f8630712276e3bdc, type: 2}
 --- !u!1102 &3964741862970464842
 AnimatorState:
   serializedVersion: 5
@@ -792,6 +797,7 @@ MonoBehaviour:
   ListAbilityData:
   - {fileID: 11400000, guid: 578a8535d6f3a084f8630712276e3bdc, type: 2}
   - {fileID: 11400000, guid: a417e1f7488a6864498f2ecee84c9d5e, type: 2}
+  - {fileID: 11400000, guid: 2fbc292176851694cb7f03aa8b5af189, type: 2}
 --- !u!114 &6204665025595016096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -807,6 +813,7 @@ MonoBehaviour:
   ListAbilityData:
   - {fileID: 11400000, guid: c7e6460fc84bb824caa72ebd48f4bf40, type: 2}
   - {fileID: 11400000, guid: 2fbc292176851694cb7f03aa8b5af189, type: 2}
+  - {fileID: 11400000, guid: 578a8535d6f3a084f8630712276e3bdc, type: 2}
 --- !u!1102 &6749363261541558738
 AnimatorState:
   serializedVersion: 5
@@ -861,6 +868,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: isJumping
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: isAgainstWall
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6578052507446408811}

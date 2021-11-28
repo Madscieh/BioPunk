@@ -6,8 +6,8 @@ namespace BioPunk
     public class MoveForward : StateData
     {
         //public AnimationCurve SpeedGraph;
-        public float Speed;
-        public float BlockDistance;
+        public float speed;
+        public float blockDistance;
         public override void OnEnter(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
 
@@ -15,7 +15,7 @@ namespace BioPunk
 
         public override void UpdateAbility(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
-            CharacterControl control = characterState.GetCharacterControl(animator);
+            var control = characterState.GetCharacterControl(animator);
 
             if (control.Jump) animator.SetBool(TransitionParameter.isJumping.ToString(), true);
 
@@ -24,12 +24,12 @@ namespace BioPunk
             if (control.MoveRight)
             {
                 control.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
-                if (!CheckFront(control)) control.GetComponent<Rigidbody>().velocity = new Vector3(Speed, control.GetComponent<Rigidbody>().velocity.y, 0f);
+                if (!CheckFront(control)) control.GetComponent<Rigidbody>().velocity = new Vector3(speed, control.GetComponent<Rigidbody>().velocity.y, 0f);
             }
             if (control.MoveLeft)
             {
                 control.transform.rotation = Quaternion.Euler(0f,180f,0f);
-                if (!CheckFront(control)) control.GetComponent<Rigidbody>().velocity = new Vector3(-Speed, control.GetComponent<Rigidbody>().velocity.y, 0f);
+                if (!CheckFront(control)) control.GetComponent<Rigidbody>().velocity = new Vector3(-speed, control.GetComponent<Rigidbody>().velocity.y, 0f);
             }
         }
         public override void OnExit(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
@@ -39,8 +39,8 @@ namespace BioPunk
 
         bool CheckFront(CharacterControl control)
         {
-            if (Physics.Raycast(control.transform.position, Vector3.right, BlockDistance) && control.MoveRight) return true;
-            if (Physics.Raycast(control.transform.position, Vector3.left, BlockDistance) && control.MoveLeft) return true;
+            if (Physics.Raycast(control.transform.position, Vector3.right, blockDistance) && control.MoveRight) return true;
+            if (Physics.Raycast(control.transform.position, Vector3.left, blockDistance) && control.MoveLeft) return true;
             return false;
         }
     }

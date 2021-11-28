@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4aa60b391d98e8143af4552fc9eb6769, type: 3}
-  m_Name: Player_Running_MoveForward
+  m_Name: MoveForward_Jump
   m_EditorClassIdentifier: 
-  Speed: 2
-  BlockDistance: 0.15
+  speed: 2
+  blockDistance: 0.1

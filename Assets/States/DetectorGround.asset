@@ -9,9 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b89936d140bfbb46b027f9a6a4ed129, type: 3}
-  m_Name: Player_Jump_Wall
+  m_Script: {fileID: 11500000, guid: 63a2913f8bffdd74f8ab9d5792896a1e, type: 3}
+  m_Name: DetectorGround
   m_EditorClassIdentifier: 
-  JumpForceUp: 200
-  JumpForceSide: 100
-  WallJumpTime: 0
+  checkTime: 0.2
+  groundDistance: 0.2

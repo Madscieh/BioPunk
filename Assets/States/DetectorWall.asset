@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63a2913f8bffdd74f8ab9d5792896a1e, type: 3}
-  m_Name: Player_Jump_Normal_GroundDetector
+  m_Script: {fileID: 11500000, guid: 251fa385bfda91b4aa09109a904ce44d, type: 3}
+  m_Name: DetectorWall
   m_EditorClassIdentifier: 
-  CheckTime: 0.2
-  Distance: 0.005
+  checkTime: 0.1
+  blockDistance: 0.7

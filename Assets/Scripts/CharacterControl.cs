@@ -22,6 +22,7 @@ namespace BioPunk
         public bool Jump;
         public bool Fire;
         public bool Crouch;
+        public Transform firePosition;
 
         //public float GravityMultiplier;
         //public float PullMultiplier;

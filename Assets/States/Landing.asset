@@ -9,8 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 251fa385bfda91b4aa09109a904ce44d, type: 3}
-  m_Name: Player_Jump_Wall_Detector
+  m_Script: {fileID: 11500000, guid: 1b39e3bf8ed911046baccf2b21ecab20, type: 3}
+  m_Name: Landing
   m_EditorClassIdentifier: 
-  CheckTime: 0.1
-  BlockDistance: 0.7

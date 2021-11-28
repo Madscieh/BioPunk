@@ -6,7 +6,6 @@ namespace BioPunk
     public class WeaponFire : StateData
     {
         public GameObject fireProjectile;
-        public Transform _firePosition;
         public float fireBallSpeed;
 
         public override void OnEnter(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
@@ -15,18 +14,18 @@ namespace BioPunk
         }
         public override void UpdateAbility(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
-            CharacterControl control = characterState.GetCharacterControl(animator);
-            animator.SetBool(TransitionParameter.WeaponFire.ToString(), false);
-            //GameObject fireBall = Instantiate(fireProjectile, _firePosition);
-            //fireBall.GetComponent<Rigidbody>().velocity = Vector3.right * fireBallSpeed;
-            /*
-            if (control.Fire)
+            var control = characterState.GetCharacterControl(animator);
+            if (control.transform.rotation == Quaternion.Euler(0, 0, 0))
             {
-                GameObject fireBall = Instantiate(fireProjectile, _firePosition);
+                var fireBall = Instantiate(fireProjectile, control.firePosition);
                 fireBall.GetComponent<Rigidbody>().velocity = Vector3.right * fireBallSpeed;
-                //animator.SetBool(TransitionParameter.WeaponFire.ToString(), false);
             }
-            */
+            else
+            {
+                var fireBall = Instantiate(fireProjectile, control.firePosition);
+                fireBall.GetComponent<Rigidbody>().velocity = Vector3.left * fireBallSpeed;
+            }
+            animator.SetBool(TransitionParameter.WeaponFire.ToString(), false);
         }
         public override void OnExit(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
