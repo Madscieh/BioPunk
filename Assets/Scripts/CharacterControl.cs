@@ -41,7 +41,6 @@ namespace BioPunk
         public Transform firePosition;
 
         private Rigidbody rigidbody;
-
         public Rigidbody Rigidbody
         {
             get

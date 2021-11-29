@@ -17,7 +17,7 @@ namespace BioPunk
 
         public void UpdateAll(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
-            foreach (StateData d in ListAbilityData)
+            foreach (var d in ListAbilityData)
             {
                 d.UpdateAbility(characterState, animator, stateInfo);
             }

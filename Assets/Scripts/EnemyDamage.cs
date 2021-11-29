@@ -1,8 +1,7 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyDeath : MonoBehaviour
+public class EnemyDamage : MonoBehaviour
 {
     public Animator animator;
     private int lives = 1;
@@ -11,7 +10,7 @@ public class EnemyDeath : MonoBehaviour
     {
         if (lives > 0)
         {
-            if (other.gameObject.tag == "Projectile") StartCoroutine("EnemyDamage");
+            if (other.gameObject.tag == "Projectile") StartCoroutine("Damage");
         }
         else
         {
@@ -19,13 +18,11 @@ public class EnemyDeath : MonoBehaviour
         }
     }
 
-    IEnumerator EnemyDamage()
+    private IEnumerator Damage()
     {
         animator.SetBool("Damage", true);
         yield return new WaitForSeconds(.2f);
         lives--;
-        //yield return new WaitForSeconds(.2f);
         animator.SetBool("Damage", false);
-        Debug.Log("acertou");
     }
 }

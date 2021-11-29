@@ -6,8 +6,6 @@ namespace BioPunk
     public class Jump : StateData
     {
         public float jumpForce;
-        //public AnimationCurve Pull;
-        //public AnimationCurve Gravity;
         public override void OnEnter(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
             animator.SetBool(TransitionParameter.isJumping.ToString(), false);
@@ -16,9 +14,7 @@ namespace BioPunk
         }
         public override void UpdateAbility(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
-            //var control = characterState.GetCharacterControl(animator);
-            //control.GravityMultiplier = Gravity.Evaluate(stateInfo.normalizedTime);
-            //control.PullMultiplier = Pull.Evaluate(stateInfo.normalizedTime);
+
         }
         public override void OnExit(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {

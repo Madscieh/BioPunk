@@ -1481,6 +1481,7 @@ GameObject:
   - component: {fileID: 5220986217244742256}
   - component: {fileID: 2188837193878793210}
   - component: {fileID: 5105248893909887888}
+  - component: {fileID: -6863949206723002506}
   m_Layer: 0
   m_Name: InimigoSaltitante
   m_TagString: Untagged
@@ -1555,9 +1556,32 @@ MonoBehaviour:
   MoveRight: 0
   MoveLeft: 0
   Jump: 0
-  Fire: 0
-  Crouch: 0
-  rigidbody: {fileID: 5220986217244742256}
+  Attack: 0
+  fireWeapon: {fileID: 0}
+  basicWeapon: {fileID: 0}
+  empWeapon: {fileID: 0}
+  weaponMelee: 0
+  weaponFire: 0
+  weaponBasic: 0
+  weaponEMP: 0
+  hasWeaponFire: 0
+  hasWeaponBasic: 0
+  hasWeaponEMP: 0
+  audio: {fileID: 0}
+  firePosition: {fileID: 0}
+--- !u!114 &-6863949206723002506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4885195775006698298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2db16adf50ba0a498317d6093e78cfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
 --- !u!1 &5035891918954115231
 GameObject:
   m_ObjectHideFlags: 0

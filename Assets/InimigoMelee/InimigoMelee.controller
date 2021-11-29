@@ -42,8 +42,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2d3138afc4e9f44c936fcb21ca74c21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ListAbilityData:
-  - {fileID: 11400000, guid: 345fd97f27002544ea7453e3f2ae9d8b, type: 2}
+  ListAbilityData: []
 --- !u!1102 &-8361105331019241008
 AnimatorState:
   serializedVersion: 5
@@ -255,8 +254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2d3138afc4e9f44c936fcb21ca74c21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ListAbilityData:
-  - {fileID: 11400000, guid: 59acaa24fcc985e4d9799c97cc7cda85, type: 2}
+  ListAbilityData: []
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -495,10 +493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2d3138afc4e9f44c936fcb21ca74c21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ListAbilityData:
-  - {fileID: 11400000, guid: 01926985a4aacc249880c1229a571823, type: 2}
-  - {fileID: 11400000, guid: 2fbc292176851694cb7f03aa8b5af189, type: 2}
-  - {fileID: 11400000, guid: 578a8535d6f3a084f8630712276e3bdc, type: 2}
+  ListAbilityData: []
 --- !u!1101 &8568197845347481892
 AnimatorStateTransition:
   m_ObjectHideFlags: 1

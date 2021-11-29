@@ -5,10 +5,6 @@ namespace BioPunk
     [CreateAssetMenu(fileName = "New State", menuName = "BioPunk/AbilityData/AttackSelector")]
     public class AttackSelector : StateData
     {
-        //public GameObject fireWeapon;
-        //public GameObject basicWeapon;
-        //public GameObject empWeapon;
-
         public override void OnEnter(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
             

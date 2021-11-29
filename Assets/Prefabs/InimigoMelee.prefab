@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee177dbb8affdc4187eee1928d24722, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 0}
+  player: {fileID: 0}
   distanceToPursue: 3
   distanceToAttack: 1
 --- !u!114 &-5849546618885131056
@@ -118,8 +118,19 @@ MonoBehaviour:
   MoveRight: 0
   MoveLeft: 0
   Jump: 0
-  Fire: 0
-  Crouch: 0
+  Attack: 0
+  fireWeapon: {fileID: 0}
+  basicWeapon: {fileID: 0}
+  empWeapon: {fileID: 0}
+  weaponMelee: 0
+  weaponFire: 0
+  weaponBasic: 0
+  weaponEMP: 0
+  hasWeaponFire: 0
+  hasWeaponBasic: 0
+  hasWeaponEMP: 0
+  audio: {fileID: 0}
+  firePosition: {fileID: 0}
 --- !u!114 &237847400
 MonoBehaviour:
   m_ObjectHideFlags: 0
