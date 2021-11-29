@@ -44,7 +44,7 @@ namespace BioPunk
 
         public new AudioSource audio;
 
-        public Transform firePosition;
+        public Transform fireTransform;
 
         private new Rigidbody rigidbody;
         public Rigidbody Rigidbody

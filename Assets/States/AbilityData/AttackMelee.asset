@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e85a98ed23adc0d4a9688f73ef5d30d4, type: 3}
   m_Name: AttackMelee
   m_EditorClassIdentifier: 
+  kind: basic
+  range: 0.5
+  soundFX: {fileID: 0}

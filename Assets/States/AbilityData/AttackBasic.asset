@@ -15,5 +15,6 @@ MonoBehaviour:
   basicProjectile: {fileID: 1461909691975414279, guid: b7488868aeb4106488891d390a37b8c9,
     type: 3}
   speed: 10
-  audio: {fileID: 0}
+  kind: basic
+  range: 5
   soundFX: {fileID: 8300000, guid: d7b0892ad78ef294ba884f66019864ca, type: 3}

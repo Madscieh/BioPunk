@@ -2,8 +2,13 @@
 
 public class ProjectileTTL : MonoBehaviour
 {
-    void Update()
+    private void Update()
     {
-        Destroy(gameObject, 2f);
+        Destroy(gameObject, 1f);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Destroy(gameObject);
     }
 }

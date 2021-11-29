@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace BioPunk
 {
-    public class EnemyDamage : MonoBehaviour
+    public class PlayerDamage : MonoBehaviour
     {
         public Animator animator;
         public int maxHealth = 100;
