@@ -99,9 +99,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee177dbb8affdc4187eee1928d24722, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  _characterControl: {fileID: -5849546618885131056}
   distanceToPursue: 3
   distanceToAttack: 1
+  player: {fileID: 0}
 --- !u!114 &-5849546618885131056
 MonoBehaviour:
   m_ObjectHideFlags: 0

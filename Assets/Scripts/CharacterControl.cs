@@ -18,6 +18,12 @@ namespace BioPunk
     public class CharacterControl : MonoBehaviour
     {
         public Animator Animator;
+
+        public int maxHealth = 100;
+        public int currentHealth = 100;
+
+        public HealthBar healthBar;
+
         public bool MoveRight;
         public bool MoveLeft;
         public bool Jump;
@@ -36,11 +42,11 @@ namespace BioPunk
         public bool hasWeaponBasic;
         public bool hasWeaponEMP;
 
-        public AudioSource audio;
+        public new AudioSource audio;
 
         public Transform firePosition;
 
-        private Rigidbody rigidbody;
+        private new Rigidbody rigidbody;
         public Rigidbody Rigidbody
         {
             get

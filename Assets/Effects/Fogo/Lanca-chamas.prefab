@@ -4765,9 +4765,11 @@ GameObject:
   - component: {fileID: 3503380779507374379}
   - component: {fileID: 2923465032323065218}
   - component: {fileID: 2001766007748178830}
+  - component: {fileID: -39393744742284434}
+  - component: {fileID: 8726465173882046390}
   m_Layer: 0
   m_Name: Lanca-chamas
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4781,7 +4783,7 @@ Transform:
   m_GameObject: {fileID: 3503380779507374372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children:
   - {fileID: 834507887338424445}
   - {fileID: 8073718072030978807}
@@ -4796,13 +4798,13 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3503380779507374372}
   serializedVersion: 6
-  lengthInSec: 5
-  simulationSpeed: 3
+  lengthInSec: 1
+  simulationSpeed: 10
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 0
   useUnscaledTime: 0
@@ -4812,7 +4814,7 @@ ParticleSystem:
     serializedVersion: 2
     minMaxState: 0
     scalar: 0
-    minScalar: 5
+    minScalar: 0
     maxCurve:
       serializedVersion: 2
       m_Curve:
@@ -9537,6 +9539,31 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &-39393744742284434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3503380779507374372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdf440897e4cca640a1b286f782dd50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &8726465173882046390
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3503380779507374372}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 80, y: 25, z: 25}
+  m_Center: {x: 45, y: 0, z: 0}
 --- !u!1 &5232041228145664000
 GameObject:
   m_ObjectHideFlags: 0

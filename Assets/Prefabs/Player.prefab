@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3885088585786531531}
   - component: {fileID: 837500232}
   - component: {fileID: 204289244}
-  - component: {fileID: 204289243}
+  - component: {fileID: 6754512395534589130}
   - component: {fileID: 3885088585786531535}
   - component: {fileID: 3885088585786531533}
   m_Layer: 0
@@ -68,7 +68,7 @@ CapsuleCollider:
   m_Height: 3.6
   m_Direction: 1
   m_Center: {x: 0, y: 1.7, z: 0}
---- !u!95 &204289243
+--- !u!95 &6754512395534589130
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -111,11 +111,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 105f6f5044a6bdb4793d470ac912b0a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Animator: {fileID: 204289243}
+  Animator: {fileID: 6754512395534589130}
   MoveRight: 0
   MoveLeft: 0
   Jump: 0
   Attack: 0
+  fireWeapon: {fileID: 5184094670709108235, guid: b175ee57058e79c409a53dd330320a96,
+    type: 3}
+  basicWeapon: {fileID: 179081786935028630, guid: 7cc303241800657489f3f1453fbd831c,
+    type: 3}
+  empWeapon: {fileID: 1964471617145559862, guid: 2f183a3bbb9556445bbf58efbc9a25a8,
+    type: 3}
   weaponMelee: 0
   weaponFire: 0
   weaponBasic: 0
@@ -123,6 +129,7 @@ MonoBehaviour:
   hasWeaponFire: 0
   hasWeaponBasic: 0
   hasWeaponEMP: 0
+  audio: {fileID: 2967077601723212266}
   firePosition: {fileID: 7304597432466296349}
 --- !u!1 &3885088585798254105
 GameObject:
@@ -327,6 +334,12 @@ PrefabInstance:
 --- !u!4 &7304597432466296349 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4542980436843474324, guid: 85b412b240468c746ab11b3348614d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6509051708586910601}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &2967077601723212266 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8320929525177385571, guid: 85b412b240468c746ab11b3348614d5e,
     type: 3}
   m_PrefabInstance: {fileID: 6509051708586910601}
   m_PrefabAsset: {fileID: 0}

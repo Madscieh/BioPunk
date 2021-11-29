@@ -1,28 +1,41 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class EnemyDamage : MonoBehaviour
+namespace BioPunk
 {
-    public Animator animator;
-    private int lives = 1;
-
-    public void OnTriggerEnter(Collider other)
+    public class EnemyDamage : MonoBehaviour
     {
-        if (lives > 0)
-        {
-            if (other.gameObject.tag == "Projectile") StartCoroutine("Damage");
-        }
-        else
-        {
-            animator.SetBool("EnemyDeath", true);
-        }
-    }
+        public Animator animator;
+        public int maxHealth = 100;
+        public int currentHealth = 100;
 
-    private IEnumerator Damage()
-    {
-        animator.SetBool("Damage", true);
-        yield return new WaitForSeconds(.2f);
-        lives--;
-        animator.SetBool("Damage", false);
+        public HealthBar healthBar;
+
+        private void Start()
+        {
+            currentHealth = maxHealth;
+            healthBar.SetMaxHealth(maxHealth);
+        }
+
+        public void OnTriggerEnter(Collider other)
+        {
+            if (currentHealth > 0)
+            {
+                if (other.gameObject.CompareTag("Projectile")) StartCoroutine(nameof(Damage));
+            }
+            else
+            {
+                animator.SetBool("EnemyDeath", true);
+            }
+        }
+
+        private IEnumerator Damage()
+        {
+            animator.SetBool("Damage", true);
+            yield return new WaitForSeconds(.2f);
+            currentHealth--;
+            healthBar.SetHealth(currentHealth);
+            animator.SetBool("Damage", false);
+        }
     }
 }

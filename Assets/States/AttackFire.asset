@@ -12,8 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78d4881ae342842419567e5860241a9a, type: 3}
   m_Name: AttackFire
   m_EditorClassIdentifier: 
-  fireProjectile: {fileID: 1461909691975414279, guid: 2689d4454e8c3ed4aae1dadddb98af67,
-    type: 3}
-  fireBallSpeed: 10
-  audio: {fileID: 0}
+  flames: {fileID: 2923465032323065218, guid: 39d7b725af458d14380221953cc4789f, type: 3}
   soundFX: {fileID: 8300000, guid: 117706e476bc32d47b172e4169be28b0, type: 3}

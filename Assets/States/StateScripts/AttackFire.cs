@@ -5,8 +5,8 @@ namespace BioPunk
     [CreateAssetMenu(fileName = "New State", menuName = "BioPunk/AbilityData/AttackFire")]
     public class AttackFire : StateData
     {
-        public GameObject fireProjectile;
-        public float fireBallSpeed;
+        public ParticleSystem flames;
+        //public GameObject fireProjectile;
         public AudioClip soundFX;
 
         public override void OnEnter(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
@@ -16,18 +16,9 @@ namespace BioPunk
         public override void UpdateAbility(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
             var control = characterState.GetCharacterControl(animator);
-            if (control.transform.rotation == Quaternion.Euler(0, 0, 0))
-            {
-                control.audio.PlayOneShot(soundFX);
-                var fireBall = Instantiate(fireProjectile, control.firePosition);
-                fireBall.GetComponent<Rigidbody>().velocity = Vector3.right * fireBallSpeed;
-            }
-            else
-            {
-                control.audio.PlayOneShot(soundFX);
-                var fireBall = Instantiate(fireProjectile, control.firePosition);
-                fireBall.GetComponent<Rigidbody>().velocity = Vector3.left * fireBallSpeed;
-            }
+            control.audio.PlayOneShot(soundFX);
+            var fire = Instantiate(flames, control.firePosition);
+            fire.Play();
             animator.SetBool(TransitionParameter.Attack.ToString(), false);
         }
         public override void OnExit(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
