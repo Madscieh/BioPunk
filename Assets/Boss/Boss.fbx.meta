@@ -60,6 +60,21 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Detalhe_mascara
     second: {fileID: 2100000, guid: 574dd1ce70acb8b4d9ebe7206b62135d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ligamentos
+    second: {fileID: 2100000, guid: ce90c1144df5b5e42bca9e412f457af0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Olhos
+    second: {fileID: 2100000, guid: 85a922c54349a924e878ab4c2654ba43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pele
+    second: {fileID: 2100000, guid: df0eccbbf0e8b6545addcaeaa920c7d2, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
