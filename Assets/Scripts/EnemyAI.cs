@@ -4,30 +4,32 @@ namespace BioPunk
 {
     public class EnemyAI : MonoBehaviour
     {
-        private CharacterControl _characterControl;
-        public Transform playerTransform;
+        public CharacterControl _characterControl;
+        //public GameObject player;
         public float distanceToPursue;
         public float distanceToAttack;
+        public Transform player;
 
         private void Awake()
         {
-            _characterControl = this.gameObject.GetComponent<CharacterControl>();
+            //_characterControl = this.gameObject.GetComponent<CharacterControl>();
+            //playerPosition = player.GetComponent<Transform>().position;
         }
 
         private void Update()
         {
-            if (Vector3.Distance(playerTransform.position, transform.position) <= distanceToPursue)
+            if (Vector3.Distance(player.position, transform.position) <= distanceToPursue)
             {
-                if (Vector3.Distance(playerTransform.position, transform.position) <= distanceToAttack)
+                if (Vector3.Distance(player.position, transform.position) <= distanceToAttack)
                 {
                     _characterControl.MoveRight = false;
                     _characterControl.MoveLeft = false;
-                    _characterControl.Fire = true;
+                    _characterControl.Attack = true;
                 }
                 else
                 {
-                    _characterControl.Fire = false;
-                    if (playerTransform.position.x < transform.position.x)
+                    _characterControl.Attack = false;
+                    if (player.position.x < transform.position.x)
                     {
                         _characterControl.MoveRight = false;
                         _characterControl.MoveLeft = true;

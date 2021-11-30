@@ -1,12 +1,14 @@
-﻿using UnityEngine;
+﻿using BioPunk;
+using UnityEngine;
 
 public class CollectWeaponFire : MonoBehaviour
 {
     public GameObject fireWeapon;
+    public CharacterControl control;
 
-    public void OnCollisionEnter (Collision collision)
+    public void OnTriggerEnter (Collider other)
     {
-        fireWeapon.SetActive(true);
+        control.hasWeaponFire = true;
         Destroy(gameObject);
     }
 }

@@ -17,11 +17,11 @@ namespace BioPunk
             if (control.MoveRight) animator.SetBool(TransitionParameter.isRunning.ToString(), true);
             if (control.MoveLeft) animator.SetBool(TransitionParameter.isRunning.ToString(), true);
             if (control.Jump) animator.SetBool(TransitionParameter.isJumping.ToString(), true);
-            if (control.Fire) animator.SetBool(TransitionParameter.Attack.ToString(), true);
-            if (control.Fire && Time.time > _firingTime)
+            if (control.Attack) animator.SetBool(TransitionParameter.Attack.ToString(), true);
+            if (control.Attack && Time.time > _firingTime)
             {
                 _firingTime = Time.time + firingInterval;
-                animator.SetBool(TransitionParameter.WeaponFire.ToString(), true);
+                animator.SetBool(TransitionParameter.Attack.ToString(), true);
             }
         }
         public override void OnExit(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)

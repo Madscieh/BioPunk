@@ -1,0 +1,1220 @@
+fileFormatVersion: 2
+guid: f36d6d8bb66a8a541b4eb0a85061a74e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7870177116672143367
+    second: Vidas_samples_0
+  - first:
+      213: -4788924191709380249
+    second: Vidas_samples_1
+  - first:
+      213: -9210322293478131608
+    second: Vidas_samples_2
+  - first:
+      213: -2529444900038336680
+    second: Vidas_samples_3
+  - first:
+      213: 3783078818446161036
+    second: Vidas_samples_4
+  - first:
+      213: -8829111620285648233
+    second: Vidas_samples_5
+  - first:
+      213: 577264400378868311
+    second: Vidas_samples_6
+  - first:
+      213: 829419737867458836
+    second: Vidas_samples_7
+  - first:
+      213: -6098330671874267291
+    second: Vidas_samples_8
+  - first:
+      213: 7660434164670876048
+    second: Vidas_samples_9
+  - first:
+      213: -309430420612216432
+    second: Vidas_samples_10
+  - first:
+      213: 2099963073961991028
+    second: Vidas_samples_11
+  - first:
+      213: -7762327710422494900
+    second: Vidas_samples_12
+  - first:
+      213: 8157626002365732405
+    second: Vidas_samples_13
+  - first:
+      213: 1784266283338281018
+    second: Vidas_samples_14
+  - first:
+      213: 7374565775077810486
+    second: Vidas_samples_15
+  - first:
+      213: 719074359406813536
+    second: Vidas_samples_16
+  - first:
+      213: -7036398261280462697
+    second: Vidas_samples_17
+  - first:
+      213: 1714699608127560466
+    second: Vidas_samples_18
+  - first:
+      213: -787253421493785186
+    second: Vidas_samples_19
+  - first:
+      213: 5158266093377968522
+    second: Vidas_samples_20
+  - first:
+      213: -4385127473452467913
+    second: Vidas_samples_21
+  - first:
+      213: 7739052074985440454
+    second: Vidas_samples_22
+  - first:
+      213: 3419672577748061373
+    second: Vidas_samples_23
+  - first:
+      213: -8744071450662035685
+    second: Vidas_samples_24
+  - first:
+      213: 70379838669380130
+    second: Vidas_samples_25
+  - first:
+      213: 7084947031046944966
+    second: Vidas_samples_26
+  - first:
+      213: 89378376776178637
+    second: Vidas_samples_27
+  - first:
+      213: 8401950050016947326
+    second: Vidas_samples_28
+  - first:
+      213: 8094508414772155045
+    second: Vidas_samples_29
+  - first:
+      213: -1973077021576814019
+    second: Vidas_samples_30
+  - first:
+      213: 1350925408461666980
+    second: Vidas_samples_31
+  - first:
+      213: 8788993374087411451
+    second: Vidas_samples_32
+  - first:
+      213: 953741057483113949
+    second: Vidas_samples_33
+  - first:
+      213: -8490630019414591172
+    second: Vidas_samples_34
+  - first:
+      213: 2975497478752317615
+    second: Vidas_samples_35
+  - first:
+      213: -2725321715204484493
+    second: Vidas_samples_36
+  - first:
+      213: -8009958828372220487
+    second: Vidas_samples_37
+  - first:
+      213: 2041953403100048651
+    second: Vidas_samples_38
+  - first:
+      213: -3093757071331331084
+    second: Vidas_samples_39
+  - first:
+      213: 7281658057941791175
+    second: Vidas_samples_40
+  - first:
+      213: 3026926324644725319
+    second: Vidas_samples_41
+  - first:
+      213: -2703345956097439218
+    second: Vidas_samples_42
+  - first:
+      213: -3087793496518270178
+    second: Vidas_samples_43
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vidas_samples_0
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 475
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700b6aeb36c783d60800000000000000
+      internalID: 7870177116672143367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 475
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76143e802d25a8db0800000000000000
+      internalID: -4788924191709380249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_2
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 475
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868ff562cac5e2080800000000000000
+      internalID: -9210322293478131608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 469
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f9a46d34b95ecd0800000000000000
+      internalID: -2529444900038336680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_4
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 475
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84b9ca4422308430800000000000000
+      internalID: 3783078818446161036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 431
+        width: 384
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792b99e82c1b87580800000000000000
+      internalID: -8829111620285648233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_6
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 394
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752bf06e9ead20800800000000000000
+      internalID: 577264400378868311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_7
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 394
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419994d6bd0b28b00800000000000000
+      internalID: 829419737867458836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 388
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567a01470906e5ba0800000000000000
+      internalID: -6098330671874267291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 394
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099497a39445f4a60800000000000000
+      internalID: 7660434164670876048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_10
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 394
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09985b00caea4bbf0800000000000000
+      internalID: -309430420612216432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_11
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 394
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b11f82a41942d10800000000000000
+      internalID: 2099963073961991028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_12
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 394
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41981ee21ca64490800000000000000
+      internalID: -7762327710422494900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 342
+        width: 384
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536df71d0a5b53170800000000000000
+      internalID: 8157626002365732405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_14
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 306
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30b5133bbcf2c810800000000000000
+      internalID: 1784266283338281018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_15
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 323
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63124441088b75660800000000000000
+      internalID: 7374565775077810486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_16
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 306
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061e88fe15aaaf900800000000000000
+      internalID: 719074359406813536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 306
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798a332df01b95e90800000000000000
+      internalID: -7036398261280462697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_18
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 306
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bd1fe6536dbc710800000000000000
+      internalID: 1714699608127560466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_19
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 306
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9de6a72f2d1315f0800000000000000
+      internalID: -787253421493785186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_20
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 306
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a895cb8aea7d59740800000000000000
+      internalID: 5158266093377968522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_21
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 306
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7393f0adbc5e423c0800000000000000
+      internalID: -4385127473452467913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_22
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 306
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4c1c3ebd2a66b60800000000000000
+      internalID: 7739052074985440454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_23
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 261
+        width: 384
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc41dc571e157f20800000000000000
+      internalID: 3419672577748061373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_24
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 220
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f97acf751d6a680800000000000000
+      internalID: -8744071450662035685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_25
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 237
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22adc33271a0af000800000000000000
+      internalID: 70379838669380130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_26
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 237
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8f20e79c9c25260800000000000000
+      internalID: 7084947031046944966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_27
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 220
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb585ef8298d3100800000000000000
+      internalID: 89378376776178637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_28
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 220
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ce5d71e09b99470800000000000000
+      internalID: 8401950050016947326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_29
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 220
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a297e54488755070800000000000000
+      internalID: 8094508414772155045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_30
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 220
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32ad6617e83e94e0800000000000000
+      internalID: -1973077021576814019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_31
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 220
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa386160837fb210800000000000000
+      internalID: 1350925408461666980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_32
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 220
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6fdbb58e6c8f970800000000000000
+      internalID: 8788993374087411451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_33
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 165
+        width: 384
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd58cfa407e5c3d00800000000000000
+      internalID: 953741057483113949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_34
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 121
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39768d8bf83b2a80800000000000000
+      internalID: -8490630019414591172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_35
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 121
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa03a1b21371b4920800000000000000
+      internalID: 2975497478752317615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_36
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 121
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3721492e656bd2ad0800000000000000
+      internalID: -2725321715204484493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_37
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 121
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5ae5952e8e6d090800000000000000
+      internalID: -8009958828372220487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_38
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 121
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dada72dc9765c10800000000000000
+      internalID: 2041953403100048651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_39
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 121
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f371f5c554c015d0800000000000000
+      internalID: -3093757071331331084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_40
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 121
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c13b7f7c65ad0560800000000000000
+      internalID: 7281658057941791175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_41
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 115
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7424ab5747dc10a20800000000000000
+      internalID: 3026926324644725319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_42
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 121
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ac2d50d29cb7ad0800000000000000
+      internalID: -2703345956097439218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vidas_samples_43
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 58
+        width: 393
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13644cbc24f525d0800000000000000
+      internalID: -3087793496518270178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8770485a9f0d3e546bf2e866d0d3b50f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

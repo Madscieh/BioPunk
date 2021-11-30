@@ -7,7 +7,10 @@ namespace BioPunk
         public bool MoveRight;
         public bool MoveLeft;
         public bool Jump;
-        public bool Fire;
-        public bool Crouch;
+        public bool Attack;
+        public bool weaponMelee;
+        public bool weaponFire;
+        public bool weaponBasic;
+        public bool weaponEMP;
     }
 }

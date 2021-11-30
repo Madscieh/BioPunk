@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 531d910ea13b8ec47b75c6779021414a, type: 3}
+  m_Name: AttackEMP
+  m_EditorClassIdentifier: 
+  empProjectile: {fileID: 1461909691975414279, guid: 59f973eac2813a14a9f5eee4784dd7f5,
+    type: 3}
+  speed: 10
+  kind: emp
+  range: 7
+  soundFX: {fileID: 8300000, guid: 7bb306a038f68224c835d43a663bedf0, type: 3}

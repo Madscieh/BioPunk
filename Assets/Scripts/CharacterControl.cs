@@ -6,28 +6,47 @@ namespace BioPunk
     {
         isRunning,
         isJumping,
-        ForceTransition,
         isGrounded,
-        isWallSliding,
-        WeaponFire,
-        Attack,
         isAgainstWall,
+        Attack,
+        meleeWeapon,
+        fireWeapon,
+        basicWeapon,
+        empWeapon,
     }
 
     public class CharacterControl : MonoBehaviour
     {
         public Animator Animator;
+
+        public int maxHealth = 100;
+        public int currentHealth = 100;
+
+        public HealthBar healthBar;
+
         public bool MoveRight;
         public bool MoveLeft;
         public bool Jump;
-        public bool Fire;
-        public bool Crouch;
+        public bool Attack;
 
-        //public float GravityMultiplier;
-        //public float PullMultiplier;
+        public GameObject fireWeapon;
+        public GameObject basicWeapon;
+        public GameObject empWeapon;
 
-        private Rigidbody rigidbody;
+        public bool weaponMelee;
+        public bool weaponFire;
+        public bool weaponBasic;
+        public bool weaponEMP;
 
+        public bool hasWeaponFire;
+        public bool hasWeaponBasic;
+        public bool hasWeaponEMP;
+
+        public new AudioSource audio;
+
+        public Transform fireTransform;
+
+        private new Rigidbody rigidbody;
         public Rigidbody Rigidbody
         {
             get
@@ -36,11 +55,5 @@ namespace BioPunk
                 return rigidbody;
             }
         }
-
-        //private void FixedUpdate()
-        //{
-        //    if (Rigidbody.velocity.y < 0f) Rigidbody.velocity += Vector3.down * GravityMultiplier;
-        //    if (Rigidbody.velocity.y > 0f && !Jump) Rigidbody.velocity += Vector3.down * PullMultiplier;
-        //}
     }
 }
