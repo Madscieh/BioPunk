@@ -31,6 +31,7 @@ namespace BioPunk
             else
             {
                 animator.SetBool("EnemyDeath", true);
+                StartCoroutine(nameof(Death));
             }
         }
 
@@ -39,6 +40,12 @@ namespace BioPunk
             animator.SetBool("Damage", true);
             yield return new WaitForSeconds(.2f);
             animator.SetBool("Damage", false);
+        }
+
+        private IEnumerator Death()
+        {
+            yield return new WaitForSeconds(1f);
+            Destroy(gameObject);
         }
     }
 }

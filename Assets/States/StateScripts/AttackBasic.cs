@@ -28,12 +28,10 @@ namespace BioPunk
                 fireBall.GetComponent<Rigidbody>().velocity = Vector3.right * speed;
                 if (Physics.Raycast(control.fireTransform.position, Vector3.right, out hit, range))
                 {
+                    Debug.DrawRay(control.fireTransform.position, Vector3.right, Color.black, 10, true);
                     Debug.Log(hit.transform.name);
                     var target = hit.transform.GetComponent<EnemyDamage>();
-                    if (target != null)
-                    {
-                        target.TakeDamage(kind);
-                    }
+                    if (target != null) target.TakeDamage(kind);
                 }
             }
             else
@@ -42,10 +40,7 @@ namespace BioPunk
                 if (Physics.Raycast(control.fireTransform.position, Vector3.left, out hit, range))
                 {
                     var target = hit.transform.GetComponent<EnemyDamage>();
-                    if (target != null)
-                    {
-                        target.TakeDamage(kind);
-                    }
+                    if (target != null) target.TakeDamage(kind);
                 }
             }
             animator.SetBool(TransitionParameter.Attack.ToString(), false);

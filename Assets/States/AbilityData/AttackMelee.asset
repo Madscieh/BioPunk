@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: AttackMelee
   m_EditorClassIdentifier: 
   kind: basic
-  range: 0.5
+  range: 2
   soundFX: {fileID: 0}

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1507167597425076211}
   - component: {fileID: 7218764116373323778}
   - component: {fileID: -6157458618183276473}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: BallEMP
   m_TagString: Projectile
   m_Icon: {fileID: 0}

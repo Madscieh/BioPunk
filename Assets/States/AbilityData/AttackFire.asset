@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flames: {fileID: 2923465032323065218, guid: 39d7b725af458d14380221953cc4789f, type: 3}
   kind: fire
-  range: 2
+  range: 7
   soundFX: {fileID: 8300000, guid: 117706e476bc32d47b172e4169be28b0, type: 3}

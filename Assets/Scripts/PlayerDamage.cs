@@ -6,7 +6,7 @@ namespace BioPunk
     public class PlayerDamage : MonoBehaviour
     {
         public Animator animator;
-        public int maxHealth = 100;
+        public int maxHealth = 1000;
         public int currentHealth;
 
         public HealthBar healthBar;
@@ -30,7 +30,7 @@ namespace BioPunk
             }
             else
             {
-                animator.SetBool("EnemyDeath", true);
+                StartCoroutine(nameof(Death));
             }
         }
 
@@ -39,6 +39,13 @@ namespace BioPunk
             animator.SetBool("Damage", true);
             yield return new WaitForSeconds(.2f);
             animator.SetBool("Damage", false);
+        }
+
+        private IEnumerator Death()
+        {
+            animator.SetBool("EnemyDeath", true);
+            yield return new WaitForSeconds(.3f);
+            Destroy(this);
         }
     }
 }

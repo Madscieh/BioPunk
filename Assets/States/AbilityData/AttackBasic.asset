@@ -16,5 +16,5 @@ MonoBehaviour:
     type: 3}
   speed: 10
   kind: basic
-  range: 5
+  range: 7
   soundFX: {fileID: 8300000, guid: d7b0892ad78ef294ba884f66019864ca, type: 3}
