@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 7484417247345506946}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 183.98418, y: 2.0886345, z: 16.162899}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 2.3, y: 2.3, z: 2.3}
   m_Children:
   - {fileID: 7671964283356652989}
   - {fileID: 5981709720505410128}
@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee177dbb8affdc4187eee1928d24722, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _characterControl: {fileID: 0}
+  _characterControl: {fileID: 3607445618504176572}
   distanceToPursue: 3
   distanceToAttack: 1
   player: {fileID: 0}
@@ -252,7 +252,7 @@ PrefabInstance:
     - target: {fileID: 6599526569158792218, guid: ca7b4cd5e4237db46a80b035f68f0ba2,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.2379
+      value: 0.275
       objectReference: {fileID: 0}
     - target: {fileID: 6599526569158792218, guid: ca7b4cd5e4237db46a80b035f68f0ba2,
         type: 3}
@@ -401,7 +401,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5105248893909887888, guid: be63ec735ce300f4f82b5314cd685e6d, type: 3}
+    - {fileID: -6863949206723002506, guid: be63ec735ce300f4f82b5314cd685e6d, type: 3}
+    - {fileID: 2188837193878793210, guid: be63ec735ce300f4f82b5314cd685e6d, type: 3}
+    - {fileID: 5220986217244742256, guid: be63ec735ce300f4f82b5314cd685e6d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: be63ec735ce300f4f82b5314cd685e6d, type: 3}
 --- !u!4 &7671964283356652989 stripped
 Transform:

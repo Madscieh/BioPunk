@@ -6,6 +6,7 @@ namespace BioPunk
     public class AttackBasic : StateData
     {
         public GameObject basicProjectile;
+        public ParticleSystem basic;
         public float speed;
         public string kind = "basic";
         public float range;
@@ -13,7 +14,7 @@ namespace BioPunk
 
         public override void OnEnter(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
-            
+            basic = animator.gameObject.GetComponentInChildren<ParticleSystem>();
         }
         public override void UpdateAbility(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
@@ -26,6 +27,8 @@ namespace BioPunk
             if (control.transform.rotation == Quaternion.Euler(0, 0, 0))
             {
                 fireBall.GetComponent<Rigidbody>().velocity = Vector3.right * speed;
+                basic.Emit(1);
+                // particle emit
                 if (Physics.Raycast(control.fireTransform.position, Vector3.right, out hit, range))
                 {
                     Debug.DrawRay(control.fireTransform.position, Vector3.right, Color.black, 10, true);

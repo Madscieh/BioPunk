@@ -7536,7 +7536,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 3885088586064733063}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1538714492}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 105f6f5044a6bdb4793d470ac912b0a9, type: 3}
@@ -51324,7 +51324,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7781457, y: 1}
+    m_SensorSize: {x: 1.7767857, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -55395,50 +55395,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 62e0b968bb5092641ad3e5d391ca8d64, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 601a2199678228446aa82ff3a4cf3a44, type: 3}
---- !u!1 &1538714492 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3885088585786531520, guid: 83226800bf920d14591ec9bb42c53220,
-    type: 3}
-  m_PrefabInstance: {fileID: 3885088586064733063}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1538714493 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 6754512395534589130, guid: 83226800bf920d14591ec9bb42c53220,
-    type: 3}
-  m_PrefabInstance: {fileID: 3885088586064733063}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1538714494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1538714492}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a759d468c4138cd4191b6f25d4cb6a48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 1538714493}
-  maxHealth: 1000
-  currentHealth: 0
-  healthBar: {fileID: 1965341924}
---- !u!114 &1538714495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1538714492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2db16adf50ba0a498317d6093e78cfd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 1538714493}
-  maxHealth: 1000
-  currentHealth: 0
-  healthBar: {fileID: 1965341924}
 --- !u!1001 &1539388682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69653,18 +69609,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a2d1327eff07ce4eaccbbdf2dcbcd0a, type: 3}
---- !u!114 &1965341924 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3885088586788544355, guid: 83226800bf920d14591ec9bb42c53220,
-    type: 3}
-  m_PrefabInstance: {fileID: 3885088586064733063}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a7633aa6e26e0343b05e8d25a58786f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1967698822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76843,16 +76787,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3885088585444895182, guid: 83226800bf920d14591ec9bb42c53220,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3885088585444895182, guid: 83226800bf920d14591ec9bb42c53220,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 3.622
-      objectReference: {fileID: 0}
     - target: {fileID: 3885088585786531520, guid: 83226800bf920d14591ec9bb42c53220,
         type: 3}
       propertyPath: m_Name
@@ -76928,9 +76862,7 @@ PrefabInstance:
       propertyPath: camera
       value: 
       objectReference: {fileID: 1422546851}
-    m_RemovedComponents:
-    - {fileID: 6094331251751595945, guid: 83226800bf920d14591ec9bb42c53220, type: 3}
-    - {fileID: 2130316706850137636, guid: 83226800bf920d14591ec9bb42c53220, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83226800bf920d14591ec9bb42c53220, type: 3}
 --- !u!4 &3885088586064733064 stripped
 Transform:

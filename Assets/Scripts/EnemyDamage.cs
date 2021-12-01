@@ -35,6 +35,11 @@ namespace BioPunk
             }
         }
 
+        private void OnParticleCollision(GameObject other)
+        {
+            Debug.Log("atingiu");
+        }
+
         private IEnumerator Damage()
         {
             animator.SetBool("Damage", true);
