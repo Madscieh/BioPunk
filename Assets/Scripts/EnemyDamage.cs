@@ -21,10 +21,10 @@ namespace BioPunk
         {
             if (currentHealth > 0)
             {
-                if (kind == "basic") currentHealth -= 10;
-                if (kind == "fire") currentHealth -= 10;
-                if (kind == "emp") currentHealth -= 10;
-                if (kind == "melee") currentHealth -= 5;
+                if (kind == "basic") currentHealth -= 2;
+                if (kind == "fire") currentHealth -= 2;
+                if (kind == "emp") currentHealth -= 2;
+                if (kind == "melee") currentHealth -= 1;
                 healthBar.SetHealth(currentHealth);
                 StartCoroutine(nameof(Damage));
             }

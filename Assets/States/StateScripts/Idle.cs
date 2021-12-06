@@ -13,7 +13,7 @@ namespace BioPunk
         }
         public override void UpdateAbility(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
-            CharacterControl control = characterState.GetCharacterControl(animator);
+            var control = characterState.GetCharacterControl(animator);
             if (control.MoveRight) animator.SetBool(TransitionParameter.isRunning.ToString(), true);
             if (control.MoveLeft) animator.SetBool(TransitionParameter.isRunning.ToString(), true);
             if (control.Jump) animator.SetBool(TransitionParameter.isJumping.ToString(), true);

@@ -25,10 +25,7 @@ namespace BioPunk
                 if (Physics.Raycast(control.fireTransform.position, Vector3.right, out hit, range))
                 {
                     var target = hit.transform.GetComponent<EnemyDamage>();
-                    if (target != null)
-                    {
-                        target.TakeDamage(kind);
-                    }
+                    if (target != null) target.TakeDamage(kind);
                 }
             }
             else
@@ -36,10 +33,7 @@ namespace BioPunk
                 if (Physics.Raycast(control.fireTransform.position, Vector3.left, out hit, range))
                 {
                     var target = hit.transform.GetComponent<EnemyDamage>();
-                    if (target != null)
-                    {
-                        target.TakeDamage(kind);
-                    }
+                    if (target != null) target.TakeDamage(kind);
                 }
             }
             animator.SetBool(TransitionParameter.Attack.ToString(), false);

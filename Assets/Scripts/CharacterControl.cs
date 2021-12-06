@@ -18,10 +18,21 @@ namespace BioPunk
     public class CharacterControl : MonoBehaviour
     {
         public Animator Animator;
+        public new AudioSource audio;
 
-        public int maxHealth = 100;
-        public int currentHealth = 100;
+        public Transform fireTransform;
+        private new Rigidbody rigidbody;
+        public Rigidbody Rigidbody
+        {
+            get
+            {
+                if (rigidbody == null) rigidbody = GetComponent<Rigidbody>();
+                return rigidbody;
+            }
+        }
 
+        public int maxHealth;
+        public int currentHealth;
         public HealthBar healthBar;
 
         public bool MoveRight;
@@ -33,6 +44,10 @@ namespace BioPunk
         public GameObject basicWeapon;
         public GameObject empWeapon;
 
+        public ParticleSystem basic;
+        public ParticleSystem flames;
+        public ParticleSystem emp;
+
         public bool weaponMelee;
         public bool weaponFire;
         public bool weaponBasic;
@@ -41,19 +56,5 @@ namespace BioPunk
         public bool hasWeaponFire;
         public bool hasWeaponBasic;
         public bool hasWeaponEMP;
-
-        public new AudioSource audio;
-
-        public Transform fireTransform;
-
-        private new Rigidbody rigidbody;
-        public Rigidbody Rigidbody
-        {
-            get
-            {
-                if (rigidbody == null) rigidbody = GetComponent<Rigidbody>();
-                return rigidbody;
-            }
-        }
     }
 }

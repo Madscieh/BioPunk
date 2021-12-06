@@ -6,7 +6,7 @@ namespace BioPunk
     public class PlayerDamage : MonoBehaviour
     {
         public Animator animator;
-        public int maxHealth = 1000;
+        public int maxHealth = 100;
         public int currentHealth;
 
         public HealthBar healthBar;
@@ -21,10 +21,10 @@ namespace BioPunk
         {
             if (currentHealth > 0)
             {
-                if (kind == "basic") currentHealth -= 10;
-                if (kind == "fire") currentHealth -= 10;
-                if (kind == "emp") currentHealth -= 10;
-                if (kind == "melee") currentHealth -= 5;
+                if (kind == "basic") currentHealth -= 2;
+                if (kind == "fire") currentHealth -= 2;
+                if (kind == "emp") currentHealth -= 2;
+                if (kind == "melee") currentHealth -= 1;
                 healthBar.SetHealth(currentHealth);
                 StartCoroutine(nameof(Damage));
             }

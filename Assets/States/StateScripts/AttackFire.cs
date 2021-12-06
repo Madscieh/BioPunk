@@ -5,7 +5,6 @@ namespace BioPunk
     [CreateAssetMenu(fileName = "New State", menuName = "BioPunk/AbilityData/AttackFire")]
     public class AttackFire : StateData
     {
-        public ParticleSystem flames;
         public string kind = "fire";
         public float range;
         public AudioClip soundFX;
@@ -18,8 +17,7 @@ namespace BioPunk
         {
             var control = characterState.GetCharacterControl(animator);
             control.audio.PlayOneShot(soundFX);
-            var fire = Instantiate(flames, control.fireTransform);
-            fire.Play();
+            control.flames.Play();
             RaycastHit hit;
 
             if (control.transform.rotation == Quaternion.Euler(0, 0, 0))
@@ -27,10 +25,7 @@ namespace BioPunk
                 if (Physics.Raycast(control.fireTransform.position, Vector3.right, out hit, range))
                 {
                     var target = hit.transform.GetComponent<EnemyDamage>();
-                    if (target != null)
-                    {
-                        target.TakeDamage(kind);
-                    }
+                    if (target != null) target.TakeDamage(kind);
                 }
             }
             else
@@ -38,10 +33,7 @@ namespace BioPunk
                 if (Physics.Raycast(control.fireTransform.position, Vector3.left, out hit, range))
                 {
                     var target = hit.transform.GetComponent<EnemyDamage>();
-                    if (target != null)
-                    {
-                        target.TakeDamage(kind);
-                    }
+                    if (target != null) target.TakeDamage(kind);
                 }
             }
             animator.SetBool(TransitionParameter.Attack.ToString(), false);
