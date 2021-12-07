@@ -13,6 +13,10 @@ namespace BioPunk
         fireWeapon,
         basicWeapon,
         empWeapon,
+        Juggernaut,
+        JumpAttack,
+        Laser,
+        BossMelee,
     }
 
     public class CharacterControl : MonoBehaviour

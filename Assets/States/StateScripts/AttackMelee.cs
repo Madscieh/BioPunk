@@ -34,6 +34,8 @@ namespace BioPunk
                 }
             }
             animator.SetBool(TransitionParameter.Attack.ToString(), false);
+            animator.SetBool(TransitionParameter.BossMelee.ToString(), false);
+            animator.SetBool(TransitionParameter.Juggernaut.ToString(), false);
         }
         public override void OnExit(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {

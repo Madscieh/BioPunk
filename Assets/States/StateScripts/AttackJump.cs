@@ -23,6 +23,7 @@ namespace BioPunk
                 if (target != null) target.TakeDamage(kind);
             }
             animator.SetBool(TransitionParameter.isJumping.ToString(), false);
+            animator.SetBool(TransitionParameter.JumpAttack.ToString(), false);
         }
         public override void OnExit(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
