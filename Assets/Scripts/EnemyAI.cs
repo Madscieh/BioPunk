@@ -8,6 +8,8 @@ namespace BioPunk
         public Transform player;
         public float distanceToPursue;
         public float distanceToAttack;
+        public float firingInterval;
+        private float _firingTime = 0f;
 
         private void Update()
         {
@@ -15,23 +17,20 @@ namespace BioPunk
             {
                 if (Vector3.Distance(player.position, transform.position) <= distanceToAttack)
                 {
+                    if (Time.time > _firingTime)
+                    {
+                        _firingTime = Time.time + firingInterval;
+                        characterControl.Attack = true;
+                    }
+                    else characterControl.Attack = false;
                     characterControl.MoveRight = false;
                     characterControl.MoveLeft = false;
-                    characterControl.Attack = true;
                 }
                 else
                 {
                     characterControl.Attack = false;
-                    if (player.position.x < transform.position.x)
-                    {
-                        characterControl.MoveRight = false;
-                        characterControl.MoveLeft = true;
-                    }
-                    else
-                    {
-                        characterControl.MoveRight = true;
-                        characterControl.MoveLeft = false;
-                    }
+                    characterControl.MoveRight = player.position.x > transform.position.x;
+                    characterControl.MoveLeft = player.position.x < transform.position.x;
                 }
             }
             else

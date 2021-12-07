@@ -15,14 +15,11 @@ namespace BioPunk
         }
         public override void UpdateAbility(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
-            RaycastHit hit;
-
             var control = characterState.GetCharacterControl(animator);
-            //control.audio.PlayOneShot(soundFX);
-
+            control.audio.PlayOneShot(soundFX);
             if (control.transform.rotation == Quaternion.Euler(0, 0, 0))
             {
-                if (Physics.Raycast(control.fireTransform.position, Vector3.right, out hit, range))
+                if (Physics.Raycast(control.fireTransform.position, Vector3.right, out var hit, range))
                 {
                     var target = hit.transform.GetComponent<EnemyDamage>();
                     if (target != null) target.TakeDamage(kind);
@@ -30,7 +27,7 @@ namespace BioPunk
             }
             else
             {
-                if (Physics.Raycast(control.fireTransform.position, Vector3.left, out hit, range))
+                if (Physics.Raycast(control.fireTransform.position, Vector3.left, out var hit, range))
                 {
                     var target = hit.transform.GetComponent<EnemyDamage>();
                     if (target != null) target.TakeDamage(kind);

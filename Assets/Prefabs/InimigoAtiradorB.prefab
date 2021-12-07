@@ -135,6 +135,7 @@ MonoBehaviour:
   basic: {fileID: 2421367096975286683, guid: 6943a25572a20bb46a7c547af154d78f, type: 3}
   flames: {fileID: 0}
   emp: {fileID: 0}
+  laser: {fileID: 0}
   weaponMelee: 0
   weaponFire: 0
   weaponBasic: 1
@@ -172,6 +173,7 @@ MonoBehaviour:
   player: {fileID: 0}
   distanceToPursue: 4
   distanceToAttack: 3
+  firingInterval: 0.2
 --- !u!114 &399954683341004320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -293,6 +295,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a8a8aa9940caca44688e3839bbb2b616,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a8a8aa9940caca44688e3839bbb2b616,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a8a8aa9940caca44688e3839bbb2b616,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a8a8aa9940caca44688e3839bbb2b616,
         type: 3}
@@ -513,7 +530,7 @@ PrefabInstance:
     - target: {fileID: 6599526569158792218, guid: ca7b4cd5e4237db46a80b035f68f0ba2,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.02
+      value: 3.52
       objectReference: {fileID: 0}
     - target: {fileID: 6599526569158792218, guid: ca7b4cd5e4237db46a80b035f68f0ba2,
         type: 3}

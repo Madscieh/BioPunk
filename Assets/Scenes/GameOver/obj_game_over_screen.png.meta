@@ -1,0 +1,329 @@
+fileFormatVersion: 2
+guid: 5f438c1de7e986847a13319d30b5a3b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4067653178577159208
+    second: obj_game_over_screen_0
+  - first:
+      213: -2765162294189752783
+    second: obj_game_over_screen_1
+  - first:
+      213: -5572322348556602498
+    second: obj_game_over_screen_2
+  - first:
+      213: -3758870407965783458
+    second: obj_game_over_screen_3
+  - first:
+      213: -6097264506735501626
+    second: obj_game_over_screen_4
+  - first:
+      213: 1468748161091670639
+    second: obj_game_over_screen_5
+  - first:
+      213: -3853551440062315329
+    second: obj_game_over_screen_6
+  - first:
+      213: -3669998264464617343
+    second: obj_game_over_screen_7
+  - first:
+      213: 2423465128848744827
+    second: obj_game_over_screen_8
+  - first:
+      213: 7009069055047222727
+    second: obj_game_over_screen_9
+  - first:
+      213: -2582677932959013058
+    second: obj_game_over_screen_10
+  - first:
+      213: 4579612005956665556
+    second: obj_game_over_screen_11
+  - first:
+      213: -2701379904495950239
+    second: obj_game_over_screen_12
+  - first:
+      213: -2336763753630853148
+    second: obj_game_over_screen_13
+  - first:
+      213: 8066869043416223712
+    second: obj_game_over_screen_14
+  - first:
+      213: 5744280421172002653
+    second: obj_game_over_screen_15
+  - first:
+      213: 3160220940996524531
+    second: obj_game_over_screen_16
+  - first:
+      213: -6471290939162288261
+    second: obj_game_over_screen_17
+  - first:
+      213: 5709428664714734057
+    second: obj_game_over_screen_18
+  - first:
+      213: 1523403780809192884
+    second: obj_game_over_screen_19
+  - first:
+      213: -7914489082074916807
+    second: obj_game_over_screen_20
+  - first:
+      213: -4163315078438516581
+    second: obj_game_over_screen_21
+  - first:
+      213: 5053590778052750691
+    second: obj_game_over_screen_22
+  - first:
+      213: -8519098420063051450
+    second: obj_game_over_screen_23
+  - first:
+      213: -4322753519152064248
+    second: obj_game_over_screen_24
+  - first:
+      213: 6398912655098785621
+    second: obj_game_over_screen_25
+  - first:
+      213: -5470232404511726943
+    second: obj_game_over_screen_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: obj_game_over_screen_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 178
+        width: 149
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824849ab305337830800000000000000
+      internalID: 4067653178577159208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_game_over_screen_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 127
+        width: 149
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b716392d1b0e1a120800000000000000
+      internalID: 2423465128848744827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_game_over_screen_13
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 62
+        width: 179
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e713dc2fb5229fd0800000000000000
+      internalID: -2336763753630853148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_game_over_screen_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 9
+        width: 179
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9389734dc161a2290800000000000000
+      internalID: -7914489082074916807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a79ec2322d0aaf8418b2785abadf9569
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

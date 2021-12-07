@@ -5,8 +5,6 @@ namespace BioPunk
     [CreateAssetMenu(fileName = "New State", menuName = "BioPunk/AbilityData/Idle")]
     public class Idle : StateData
     {
-        public float firingInterval;
-        private float _firingTime = 0f;
         public override void OnEnter(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
             animator.SetBool(TransitionParameter.isJumping.ToString(), false);
@@ -18,11 +16,6 @@ namespace BioPunk
             if (control.MoveLeft) animator.SetBool(TransitionParameter.isRunning.ToString(), true);
             if (control.Jump) animator.SetBool(TransitionParameter.isJumping.ToString(), true);
             if (control.Attack) animator.SetBool(TransitionParameter.Attack.ToString(), true);
-            if (control.Attack && Time.time > _firingTime)
-            {
-                _firingTime = Time.time + firingInterval;
-                animator.SetBool(TransitionParameter.Attack.ToString(), true);
-            }
         }
         public override void OnExit(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {

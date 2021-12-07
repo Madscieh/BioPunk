@@ -2,8 +2,8 @@
 
 namespace BioPunk
 {
-    [CreateAssetMenu(fileName = "New State", menuName = "BioPunk/AbilityData/AttackBasic")]
-    public class AttackBasic : StateData
+    [CreateAssetMenu(fileName = "New State", menuName = "BioPunk/AbilityData/AttackLaser")]
+    public class AttackLaser : StateData
     {
         public string kind = "basic";
         public float range;
@@ -17,7 +17,7 @@ namespace BioPunk
         {
             var control = characterState.GetCharacterControl(animator);
             control.audio.PlayOneShot(soundFX);
-            control.basic.Play();
+            control.laser.Play();
             if (control.transform.rotation == Quaternion.Euler(0, 0, 0))
             {
                 if (Physics.Raycast(control.fireTransform.position, Vector3.right, out var hit, range))

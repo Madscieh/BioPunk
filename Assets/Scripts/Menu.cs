@@ -10,6 +10,11 @@ namespace BioPunk
             SceneManager.LoadScene(1);
         }
 
+        public void Credits()
+        {
+            SceneManager.LoadScene(5);
+        }
+
         public void Quit()
         {
             Application.Quit();

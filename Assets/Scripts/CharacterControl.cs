@@ -47,6 +47,7 @@ namespace BioPunk
         public ParticleSystem basic;
         public ParticleSystem flames;
         public ParticleSystem emp;
+        public ParticleSystem laser;
 
         public bool weaponMelee;
         public bool weaponFire;

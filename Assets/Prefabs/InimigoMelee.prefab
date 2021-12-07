@@ -104,6 +104,7 @@ MonoBehaviour:
   player: {fileID: 0}
   distanceToPursue: 3
   distanceToAttack: 1
+  firingInterval: 0
 --- !u!114 &-5849546618885131056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,6 +118,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Animator: {fileID: -6363573818943421471}
+  audio: {fileID: 4634157282473178722}
+  fireTransform: {fileID: 3797781907986535489}
   maxHealth: 100
   currentHealth: 100
   healthBar: {fileID: 3226053209526170702}
@@ -127,6 +130,10 @@ MonoBehaviour:
   fireWeapon: {fileID: 0}
   basicWeapon: {fileID: 0}
   empWeapon: {fileID: 0}
+  basic: {fileID: 0}
+  flames: {fileID: 0}
+  emp: {fileID: 0}
+  laser: {fileID: 0}
   weaponMelee: 0
   weaponFire: 0
   weaponBasic: 0
@@ -134,8 +141,6 @@ MonoBehaviour:
   hasWeaponFire: 0
   hasWeaponBasic: 0
   hasWeaponEMP: 0
-  audio: {fileID: 4634157282473178722}
-  fireTransform: {fileID: 3797781907986535489}
 --- !u!114 &237847400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,6 +238,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireTransform
       objectReference: {fileID: 0}
+    - target: {fileID: 6868200194207265389, guid: 2f70a00111581564aa36d8eae0114992,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.28
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f70a00111581564aa36d8eae0114992, type: 3}
 --- !u!4 &3797781907986535489 stripped
@@ -262,7 +272,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: aa230e77881d52b4eb62d3923f576b8c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.035
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aa230e77881d52b4eb62d3923f576b8c,
         type: 3}
@@ -312,17 +322,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: aa230e77881d52b4eb62d3923f576b8c,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aa230e77881d52b4eb62d3923f576b8c,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aa230e77881d52b4eb62d3923f576b8c,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.2
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: -1526964690268444965, guid: aa230e77881d52b4eb62d3923f576b8c,
         type: 3}
