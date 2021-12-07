@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: AttackFire
   m_EditorClassIdentifier: 
   kind: fire
-  range: 5
+  range: 3
   soundFX: {fileID: 8300000, guid: 117706e476bc32d47b172e4169be28b0, type: 3}

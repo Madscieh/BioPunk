@@ -76816,6 +76816,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 377142370531894690, guid: 83226800bf920d14591ec9bb42c53220,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3885088585786531520, guid: 83226800bf920d14591ec9bb42c53220,
         type: 3}
       propertyPath: m_Name
@@ -76949,12 +76954,17 @@ PrefabInstance:
     - target: {fileID: 5514662179795756176, guid: 83226800bf920d14591ec9bb42c53220,
         type: 3}
       propertyPath: InitialModule.startSpeed.scalar
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5514662179795756176, guid: 83226800bf920d14591ec9bb42c53220,
         type: 3}
       propertyPath: simulationSpeed
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6515228015110542412, guid: 83226800bf920d14591ec9bb42c53220,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7850175729101859251, guid: 83226800bf920d14591ec9bb42c53220,
         type: 3}

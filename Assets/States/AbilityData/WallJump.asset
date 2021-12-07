@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b89936d140bfbb46b027f9a6a4ed129, type: 3}
   m_Name: WallJump
   m_EditorClassIdentifier: 
-  jumpForceUp: 500
+  jumpForceUp: 400
   jumpForceSide: 0
