@@ -888,7 +888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ListAbilityData:
-  - {fileID: 11400000, guid: 345fd97f27002544ea7453e3f2ae9d8b, type: 2}
+  - {fileID: 11400000, guid: afee8838185ee054886e124986bed9e5, type: 2}
   - {fileID: 11400000, guid: b259edb765934644ab98542213050c47, type: 2}
   - {fileID: 11400000, guid: 578a8535d6f3a084f8630712276e3bdc, type: 2}
 --- !u!1101 &3841370729141468278
