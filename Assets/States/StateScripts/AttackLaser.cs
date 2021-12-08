@@ -20,6 +20,7 @@ namespace BioPunk
             control.laser.Play();
             if (control.transform.rotation == Quaternion.Euler(0, 0, 0))
             {
+                Debug.DrawRay(control.fireTransform.position, Vector3.right, Color.yellow);
                 if (Physics.Raycast(control.fireTransform.position, Vector3.right, out var hit, range))
                 {
                     var target = hit.transform.GetComponent<EnemyDamage>();
@@ -28,6 +29,7 @@ namespace BioPunk
             }
             else
             {
+                Debug.DrawRay(control.fireTransform.position, Vector3.left, Color.yellow);
                 if (Physics.Raycast(control.fireTransform.position, Vector3.left, out var hit, range))
                 {
                     var target = hit.transform.GetComponent<EnemyDamage>();

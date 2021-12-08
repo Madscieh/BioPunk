@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: AttackLaser
   m_EditorClassIdentifier: 
   kind: basic
-  range: 5
+  range: 15
   soundFX: {fileID: 8300000, guid: 83f788b15d133c241908ff899c1deb61, type: 3}

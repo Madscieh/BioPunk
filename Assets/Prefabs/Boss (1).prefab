@@ -1473,20 +1473,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7219316801902068996, guid: 711de9cb491d6f04497694ea8d0da0bb,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 8422655388707225436, guid: 711de9cb491d6f04497694ea8d0da0bb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.55
       objectReference: {fileID: 0}
     - target: {fileID: 8422655388707225436, guid: 711de9cb491d6f04497694ea8d0da0bb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4
+      value: 1.327
       objectReference: {fileID: 0}
     - target: {fileID: 8422655388707225436, guid: 711de9cb491d6f04497694ea8d0da0bb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.3333335
+      value: -0.84
       objectReference: {fileID: 0}
     - target: {fileID: 8422655388707225436, guid: 711de9cb491d6f04497694ea8d0da0bb,
         type: 3}
@@ -1531,17 +1536,17 @@ PrefabInstance:
     - target: {fileID: 8422655388707225436, guid: 711de9cb491d6f04497694ea8d0da0bb,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8422655388707225436, guid: 711de9cb491d6f04497694ea8d0da0bb,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8422655388707225436, guid: 711de9cb491d6f04497694ea8d0da0bb,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 711de9cb491d6f04497694ea8d0da0bb, type: 3}

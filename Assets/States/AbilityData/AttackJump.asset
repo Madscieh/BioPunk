@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: AttackJump
   m_EditorClassIdentifier: 
   kind: melee
-  range: 1
+  range: 10
   soundFX: {fileID: 8300000, guid: 4434e944d0ce9684ba3e438abb8664ca, type: 3}
