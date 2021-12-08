@@ -2,7 +2,7 @@
 
 namespace BioPunk
 {
-    [CreateAssetMenu(fileName = "New State", menuName = "BioPunk/AbilityData/Idle")]
+    [CreateAssetMenu(fileName = "New State", menuName = "BioPunk/AbilityData/IdleBoss")]
     public class IdleBoss : StateData
     {
         public override void OnEnter(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)

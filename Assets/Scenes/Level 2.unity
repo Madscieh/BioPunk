@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -4356,6 +4356,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 3885088585754417776}
+    - target: {fileID: 9032564563871233972, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1146706136}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d, type: 3}
 --- !u!4 &115033980 stripped
@@ -14993,6 +14998,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 3885088585754417776}
+    - target: {fileID: 9032564563871233972, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1146706136}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d, type: 3}
 --- !u!4 &392043433 stripped
@@ -22341,6 +22351,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6892741286335625410, guid: cd32c3f37025ed344b6bb0fb2420c4a8,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1146706136}
     - target: {fileID: 8216645765157764313, guid: cd32c3f37025ed344b6bb0fb2420c4a8,
         type: 3}
       propertyPath: player
@@ -24195,6 +24210,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6892741286335625410, guid: cd32c3f37025ed344b6bb0fb2420c4a8,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1146706136}
     - target: {fileID: 8216645765157764313, guid: cd32c3f37025ed344b6bb0fb2420c4a8,
         type: 3}
       propertyPath: player
@@ -29317,6 +29337,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6892741286335625410, guid: cd32c3f37025ed344b6bb0fb2420c4a8,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1146706136}
     - target: {fileID: 8216645765157764313, guid: cd32c3f37025ed344b6bb0fb2420c4a8,
         type: 3}
       propertyPath: player
@@ -35910,6 +35935,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6892741286335625410, guid: cd32c3f37025ed344b6bb0fb2420c4a8,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1146706136}
     - target: {fileID: 8216645765157764313, guid: cd32c3f37025ed344b6bb0fb2420c4a8,
         type: 3}
       propertyPath: player
@@ -41875,6 +41905,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6892741286335625410, guid: cd32c3f37025ed344b6bb0fb2420c4a8,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1146706136}
     - target: {fileID: 8216645765157764313, guid: cd32c3f37025ed344b6bb0fb2420c4a8,
         type: 3}
       propertyPath: player
@@ -42170,6 +42205,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6892741286335625410, guid: cd32c3f37025ed344b6bb0fb2420c4a8,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1146706136}
     - target: {fileID: 8216645765157764313, guid: cd32c3f37025ed344b6bb0fb2420c4a8,
         type: 3}
       propertyPath: player
@@ -43053,7 +43093,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.77707, y: 1}
+    m_SensorSize: {x: 1.7775061, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -47217,6 +47257,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 3885088585754417776}
+    - target: {fileID: 9032564563871233972, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1146706136}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d, type: 3}
 --- !u!4 &1246973442 stripped
@@ -48985,6 +49030,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 3885088585754417776}
+    - target: {fileID: 9032564563871233972, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1146706136}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d, type: 3}
 --- !u!4 &1304334355 stripped
@@ -54925,6 +54975,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6892741286335625410, guid: cd32c3f37025ed344b6bb0fb2420c4a8,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1146706136}
     - target: {fileID: 8216645765157764313, guid: cd32c3f37025ed344b6bb0fb2420c4a8,
         type: 3}
       propertyPath: player
@@ -60985,6 +61040,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 3885088585754417776}
+    - target: {fileID: 9032564563871233972, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1146706136}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d, type: 3}
 --- !u!4 &1596742942 stripped
@@ -63304,6 +63364,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 3885088585754417776}
+    - target: {fileID: 9032564563871233972, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1146706136}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d, type: 3}
 --- !u!4 &1655761806 stripped
@@ -64401,6 +64466,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 3885088585754417776}
+    - target: {fileID: 9032564563871233972, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1146706136}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d, type: 3}
 --- !u!4 &1690741542 stripped
@@ -70099,6 +70169,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6892741286335625410, guid: cd32c3f37025ed344b6bb0fb2420c4a8,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1146706136}
     - target: {fileID: 8216645765157764313, guid: cd32c3f37025ed344b6bb0fb2420c4a8,
         type: 3}
       propertyPath: player
@@ -78424,6 +78499,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 3885088585754417776}
+    - target: {fileID: 9032564563871233972, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1146706136}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d, type: 3}
 --- !u!4 &2045331912 stripped
@@ -81661,26 +81741,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5168566297893112731, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5168566297893112731, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5168566297893112731, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.7
-      objectReference: {fileID: 0}
     - target: {fileID: 5168566297893112732, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 3885088585754417776}
+    - target: {fileID: 9032564563871233972, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1146706136}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d, type: 3}
 --- !u!4 &2105181057 stripped
@@ -83318,6 +83388,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 3885088585754417776}
+    - target: {fileID: 9032564563871233972, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1146706136}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2f408c348a1d6f4bb26bdaad3dcaa8d, type: 3}
 --- !u!4 &4030090741868013811 stripped
