@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4aa60b391d98e8143af4552fc9eb6769, type: 3}
-  m_Name: MoveForwardBoss
+  m_Script: {fileID: 11500000, guid: e89ff75d21d3ac64385af2ab7f9c3e81, type: 3}
+  m_Name: JumpBoss
   m_EditorClassIdentifier: 
-  speed: 6
-  blockDistance: 0.2
+  jumpForce: 1000

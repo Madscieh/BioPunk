@@ -1673,7 +1673,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7490503407725835084}
-  - component: {fileID: 6002467744688011285}
   m_Layer: 0
   m_Name: Punho
   m_TagString: Projectile
@@ -1695,19 +1694,6 @@ Transform:
   m_Father: {fileID: 7255254564842628516}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &6002467744688011285
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7501060805243711797}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.3
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7679373532824951963
 GameObject:
   m_ObjectHideFlags: 0

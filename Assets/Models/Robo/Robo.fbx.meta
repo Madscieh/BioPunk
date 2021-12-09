@@ -60,7 +60,37 @@ ModelImporter:
   - first:
       74: -7546967663976749352
     second: Tiro2
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brilho
+    second: {fileID: 2100000, guid: 04329a5e26790fc43865e42dc3ed5e55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Geral
+    second: {fileID: 2100000, guid: be99665084adc6c4fb5c99465e3fcbda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal2
+    second: {fileID: 2100000, guid: c93ea746bfa975e468b1874d18539c54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalGenerico
+    second: {fileID: 2100000, guid: 19b07381fc0c7df489de447b4fbca91c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tecido
+    second: {fileID: 2100000, guid: 98f72bdac13e28a4f9920cb8817aeaa8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tecido2
+    second: {fileID: 2100000, guid: 059414266751c264fbb10dfdcf6aad0e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
