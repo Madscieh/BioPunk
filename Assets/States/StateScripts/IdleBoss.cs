@@ -19,22 +19,10 @@ namespace BioPunk
             {
                 animator.SetBool(TransitionParameter.Attack.ToString(), true);
                 var kind = Random.Range(1, 5);
-                if (kind == 1)
-                {
-                    animator.SetBool(TransitionParameter.Juggernaut.ToString(), true);
-                }
-                if (kind == 2)
-                {
-                    animator.SetBool(TransitionParameter.JumpAttack.ToString(), true);
-                }
-                if (kind == 3)
-                {
-                    animator.SetBool(TransitionParameter.Laser.ToString(), true);
-                }
-                if (kind == 4)
-                {
-                    animator.SetBool(TransitionParameter.BossMelee.ToString(), true);
-                }
+                if (kind == 1) animator.SetBool(TransitionParameter.Juggernaut.ToString(), true);
+                if (kind == 2) animator.SetBool(TransitionParameter.JumpAttack.ToString(), true);
+                if (kind == 3) animator.SetBool(TransitionParameter.Laser.ToString(), true);
+                if (kind == 4) animator.SetBool(TransitionParameter.BossMelee.ToString(), true);
             }
         }
         public override void OnExit(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)

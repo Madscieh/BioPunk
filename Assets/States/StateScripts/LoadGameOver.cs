@@ -16,7 +16,7 @@ namespace BioPunk
         }
         public override void OnExit(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
-
+            
         }
     }
 }

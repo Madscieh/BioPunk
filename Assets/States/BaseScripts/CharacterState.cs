@@ -6,36 +6,22 @@ namespace BioPunk
     public class CharacterState : StateMachineBehaviour
     {
         public List<StateData> ListAbilityData = new List<StateData>();
-
         public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
-            foreach (var d in ListAbilityData)
-            {
-                d.OnEnter(this, animator, stateInfo);
-            }
+            foreach (var d in ListAbilityData) d.OnEnter(this, animator, stateInfo);
         }
-
         public void UpdateAll(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
-            foreach (var d in ListAbilityData)
-            {
-                d.UpdateAbility(characterState, animator, stateInfo);
-            }
+            foreach (var d in ListAbilityData) d.UpdateAbility(characterState, animator, stateInfo);
         }
-
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
             UpdateAll(this, animator, stateInfo);
         }
-
         public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
-            foreach (var d in ListAbilityData)
-            {
-                d.OnExit(this, animator, stateInfo);
-            }
+            foreach (var d in ListAbilityData) d.OnExit(this, animator, stateInfo);
         }
-
         private CharacterControl _characterControl;
         public CharacterControl GetCharacterControl(Animator animator)
         {

@@ -8,7 +8,6 @@ namespace BioPunk
         public string kind = "melee";
         public float range;
         public AudioClip soundFX;
-
         public override void OnEnter(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
             
