@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aa60b391d98e8143af4552fc9eb6769, type: 3}
   m_Name: MoveForwardBoss
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 7
   blockDistance: 0.2
