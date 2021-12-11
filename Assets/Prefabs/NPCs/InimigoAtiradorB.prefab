@@ -142,7 +142,7 @@ MonoBehaviour:
   player: {fileID: 0}
   distanceToPursue: 4
   distanceToAttack: 3
-  firingInterval: 0.2
+  firingInterval: 0.5
 --- !u!114 &399954683341004320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -368,7 +368,7 @@ PrefabInstance:
     - target: {fileID: 6868200194207265389, guid: 2f70a00111581564aa36d8eae0114992,
         type: 3}
       propertyPath: m_Volume
-      value: 0.282
+      value: 0.175
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f70a00111581564aa36d8eae0114992, type: 3}

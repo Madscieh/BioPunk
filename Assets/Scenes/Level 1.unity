@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -5343,11 +5343,6 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 3885088586064733064}
-    - target: {fileID: 399954683341004321, guid: 827e57223d0cfe94fb25cd70ad987c1e,
-        type: 3}
-      propertyPath: firingInterval
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 399954683341004325, guid: 827e57223d0cfe94fb25cd70ad987c1e,
         type: 3}
       propertyPath: m_Name
@@ -16120,7 +16115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 418274385}
-  maxHealth: 10000
+  maxHealth: 1000
   currentHealth: 0
   healthBar: {fileID: 1181178055}
 --- !u!95 &418274385 stripped
@@ -24591,7 +24586,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7785088, y: 1}
+    m_SensorSize: {x: 1.7770419, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -79515,6 +79510,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1538714495, guid: 83226800bf920d14591ec9bb42c53220, type: 3}
+      propertyPath: maxHealth
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1538714495, guid: 83226800bf920d14591ec9bb42c53220, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3885088585786531520, guid: 83226800bf920d14591ec9bb42c53220,
         type: 3}
       propertyPath: m_Name
